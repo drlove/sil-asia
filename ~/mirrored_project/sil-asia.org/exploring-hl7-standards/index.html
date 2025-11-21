@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from sil-asia.org/exploring-hl7-standards/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Dec 2024 00:22:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+	    <script>
+        (function (exports, d) {
+            var _isReady = false,
+                _event,
+                _fns = [];
+
+            function onReady(event) {
+                d.removeEventListener("DOMContentLoaded", onReady);
+                _isReady = true;
+                _event = event;
+                _fns.forEach(function (_fn) {
+                    var fn = _fn[0],
+                        context = _fn[1];
+                    fn.call(context || exports, window.jQuery);
+                });
+            }
+
+            function onReadyIe(event) {
+                if (d.readyState === "complete") {
+                    d.detachEvent("onreadystatechange", onReadyIe);
+                    _isReady = true;
+                    _event = event;
+                    _fns.forEach(function (_fn) {
+                        var fn = _fn[0],
+                            context = _fn[1];
+                        fn.call(context || exports, event);
+                    });
+                }
+            }
+
+            d.addEventListener && d.addEventListener("DOMContentLoaded", onReady) ||
+            d.attachEvent && d.attachEvent("onreadystatechange", onReadyIe);
+
+            function domReady(fn, context) {
+                if (_isReady) {
+                    fn.call(context, _event);
+                }
+
+                _fns.push([fn, context]);
+            }
+
+            exports.mesmerizeDomReady = domReady;
+        })(window, document);
+    </script>
+    <title>Exploring HL7 Standards - Standards and Interoperability Lab - Asia</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v12.8.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="HL7 V2, V3, CDA, and FHIR are the health data exchange standards that were released by the Health Level 7 (HL7) International group."/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Exploring HL7 Standards - Standards and Interoperability Lab - Asia" />
+<meta property="og:description" content="HL7 V2, V3, CDA, and FHIR are the health data exchange standards that were released by the Health Level 7 (HL7) International group." />
+<meta property="og:url" content="http://sil-asia.org/exploring-hl7-standards/" />
+<meta property="og:site_name" content="Standards and Interoperability Lab - Asia" />
+<meta property="article:publisher" content="https://www.facebook.com/sil.asia.org/" />
+<meta property="article:tag" content="FHIR" />
+<meta property="article:tag" content="HL7" />
+<meta property="article:tag" content="interoperability" />
+<meta property="article:tag" content="standards" />
+<meta property="article:section" content="Blogs" />
+<meta property="article:published_time" content="2020-01-15T10:28:24+00:00" />
+<meta property="article:modified_time" content="2020-03-11T09:50:13+00:00" />
+<meta property="og:updated_time" content="2020-03-11T09:50:13+00:00" />
+<meta property="og:image" content="http://sil-asia.org/wp-content/uploads/2019/11/Untitled.png" />
+<meta property="og:image:width" content="1347" />
+<meta property="og:image:height" content="727" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="HL7 V2, V3, CDA, and FHIR are the health data exchange standards that were released by the Health Level 7 (HL7) International group." />
+<meta name="twitter:title" content="Exploring HL7 Standards - Standards and Interoperability Lab - Asia" />
+<meta name="twitter:site" content="@sil_asia_org" />
+<meta name="twitter:image" content="http://sil-asia.org/wp-content/uploads/2019/11/Untitled.png" />
+<meta name="twitter:creator" content="@sil_asia_org" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"http://sil-asia.org/#organization","name":"Standards and Interoperability Lab - Asia","url":"http://sil-asia.org/","sameAs":["https://www.facebook.com/sil.asia.org/","https://twitter.com/sil_asia_org"],"logo":{"@type":"ImageObject","@id":"http://sil-asia.org/#logo","url":"http://sil-asia.org/wp-content/uploads/2018/04/rsz_1sil-asia-pin.png","width":248,"height":248,"caption":"Standards and Interoperability Lab - Asia"},"image":{"@id":"http://sil-asia.org/#logo"}},{"@type":"WebSite","@id":"http://sil-asia.org/#website","url":"http://sil-asia.org/","name":"Standards and Interoperability Lab - Asia","description":"Regional Health Interoperability Lab in Asia","publisher":{"@id":"http://sil-asia.org/#organization"},"potentialAction":{"@type":"SearchAction","target":"http://sil-asia.org/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"http://sil-asia.org/exploring-hl7-standards/#primaryimage","url":"http://sil-asia.org/wp-content/uploads/2019/11/Untitled.png","width":1347,"height":727},{"@type":"WebPage","@id":"http://sil-asia.org/exploring-hl7-standards/#webpage","url":"http://sil-asia.org/exploring-hl7-standards/","inLanguage":"en-US","name":"Exploring HL7 Standards - Standards and Interoperability Lab - Asia","isPartOf":{"@id":"http://sil-asia.org/#website"},"primaryImageOfPage":{"@id":"http://sil-asia.org/exploring-hl7-standards/#primaryimage"},"datePublished":"2020-01-15T10:28:24+00:00","dateModified":"2020-03-11T09:50:13+00:00","description":"HL7 V2, V3, CDA, and FHIR are the health data exchange standards that were released by the Health Level 7 (HL7) International group."},{"@type":"Article","@id":"http://sil-asia.org/exploring-hl7-standards/#article","isPartOf":{"@id":"http://sil-asia.org/exploring-hl7-standards/#webpage"},"author":{"@id":"http://sil-asia.org/#/schema/person/320aab6fbe94754a9cb7db245a2835cb"},"headline":"Exploring HL7 Standards","datePublished":"2020-01-15T10:28:24+00:00","dateModified":"2020-03-11T09:50:13+00:00","commentCount":0,"mainEntityOfPage":{"@id":"http://sil-asia.org/exploring-hl7-standards/#webpage"},"publisher":{"@id":"http://sil-asia.org/#organization"},"image":{"@id":"http://sil-asia.org/exploring-hl7-standards/#primaryimage"},"keywords":"FHIR,HL7,interoperability,standards","articleSection":"Blogs"},{"@type":["Person"],"@id":"http://sil-asia.org/#/schema/person/320aab6fbe94754a9cb7db245a2835cb","name":"Rose Ann Zuniga","image":{"@type":"ImageObject","@id":"http://sil-asia.org/#authorlogo","url":"http://sil-asia.org/wp-content/uploads/2018/09/PHOTO-Rose-Ann-Zuniga.jpg","caption":"Rose Ann Zuniga"},"sameAs":["admin"]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Standards and Interoperability Lab - Asia &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Standards and Interoperability Lab - Asia &raquo; Comments Feed" href="../comments/feed/index.html" />
+<link rel="alternate" type="text/calendar" title="Standards and Interoperability Lab - Asia &raquo; iCal Feed" href="../events/indexedf3.html?ical=1" />
+<link rel="alternate" type="application/rss+xml" title="Standards and Interoperability Lab - Asia &raquo; Exploring HL7 Standards Comments Feed" href="feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/sil-asia.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='otw_grid_manager-css'  href='../wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_grid_manager/css/otw-gridb3e8.css?ver=0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='otw_pct_ct_3-css'  href='../wp-content/uploads/otwpct/otw_pct_ct_3b3e8.css?ver=0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pt-cv-public-style-css'  href='../wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cva1ec.css?ver=2.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-common-skeleton-style-css'  href='../wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min7d02.css?ver=4.10.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-tooltip-css'  href='../wp-content/plugins/the-events-calendar/common/src/resources/css/tooltip.min7d02.css?ver=4.10.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='../wp-includes/css/dist/block-library/style.min9dff.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-style-css'  href='../wp-content/themes/mesmerize-pro/style.min25c1.css?ver=1.6.106' type='text/css' media='all' />
+<style id='mesmerize-style-inline-css' type='text/css'>
+img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
+/** cached kirki style */.footer .footer-content{background-color:#222;}.footer p, .footer{color:#fff;}.footer a .fa, .footer .fa{color:#fff;}.footer a:hover .fa{color:#3f464c;}.footer-border-accent{border-color:#ff9800 !important;}.footer-bg-accent{background-color:#ff9800 !important;}body{font-family:"Open Sans", Helvetica, Arial, sans-serif;color:#6B7C93;}body h1{font-family:Muli, Helvetica, Arial, sans-serif;font-weight:600;font-size:2.625rem;line-height:4rem;letter-spacing:normal;color:#3C424F;}body h2{font-family:Muli, Helvetica, Arial, sans-serif;font-weight:600;font-size:2.188rem;line-height:3rem;letter-spacing:normal;text-transform:none;color:#3C424F;}body h3{font-family:Muli, Helvetica, Arial, sans-serif;font-weight:600;font-size:1.313rem;line-height:2.25rem;letter-spacing:normal;text-transform:none;color:#3C424F;}body h4{font-family:Muli, Helvetica, Arial, sans-serif;font-weight:600;font-size:0.963rem;line-height:1.75rem;letter-spacing:0.0625rem;text-transform:none;color:#3C424F;}body h5{font-family:Muli, Helvetica, Arial, sans-serif;font-weight:800;font-size:0.875rem;line-height:1.5rem;letter-spacing:2px;text-transform:none;color:#3C424F;}body h6{font-family:Muli, Helvetica, Arial, sans-serif;font-weight:800;font-size:0.766rem;line-height:1.375rem;letter-spacing:0.1875rem;color:#3C424F;}.header-homepage:not(.header-slide).color-overlay:before{background:#24346F;}.header-homepage:not(.header-slide) .background-overlay,.header-homepage:not(.header-slide).color-overlay::before{opacity:0.5;}.mesmerize-front-page .header-separator .svg-white-bg{fill:#ffffff!important;}.mesmerize-front-page .header-separator path.svg-accent{stroke:#FF8C00!important;}.mesmerize-front-page .header-separator svg{height:178px!important;}.header.color-overlay:after{filter:invert(0%) ;}.header-homepage p.header-subtitle2{margin-top:0;margin-bottom:20px;font-family:Roboto, Helvetica, Arial, sans-serif;font-weight:300;font-style:normal;font-size:1.4em;line-height:130%;text-transform:none;color:#FFFFFF;background:rgba(0,0,0,0);padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}.header-homepage h1.hero-title{font-family:Muli, Helvetica, Arial, sans-serif;font-weight:300;font-style:normal;font-size:3.3em;line-height:114%;letter-spacing:0.9px;text-transform:none;color:#FFFFFF;}.header-homepage .hero-title{margin-top:0;margin-bottom:20px;background:rgba(0,0,0,0);padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}.header-homepage p.header-subtitle{margin-top:0;margin-bottom:20px;font-family:Muli, Helvetica, Arial, sans-serif;font-weight:300;font-style:normal;font-size:1.4em;line-height:130%;text-transform:none;color:#FFFFFF;background:rgba(0,0,0,0);padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}.header-buttons-wrapper{background:rgba(0,0,0,0);padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}.header-homepage .header-description-row{padding-top:12%;padding-bottom:23%;}.inner-header-description{padding-top:2%;padding-bottom:2%;}.inner-header-description .header-subtitle{font-family:Muli, Helvetica, Arial, sans-serif;font-weight:300;font-style:normal;font-size:1.3em;line-height:130%;letter-spacing:0px;text-transform:none;color:#ffffff;}.inner-header-description h1.hero-title{font-family:"Open Sans", Helvetica, Arial, sans-serif;font-weight:400;font-style:normal;font-size:3.5em;line-height:114%;letter-spacing:0.9px;text-transform:none;color:#FFFFFF;}.header-top-bar .header-top-bar-area.area-left span{color:#FFFFFF;}.header-top-bar .header-top-bar-area.area-left i.fa{color:#999;}.header-top-bar .header-top-bar-area.area-left .top-bar-social-icons i{color:#fff;}.header-top-bar .header-top-bar-area.area-left .top-bar-social-icons i:hover{color:#fff;}.header-top-bar .header-top-bar-area.area-left .top-bar-menu > li > a{color:#fff;}.header-top-bar .header-top-bar-area.area-left .top-bar-menu > li > a:hover{color:#fff!important;}.header-top-bar .header-top-bar-area.area-left .top-bar-menu > li > a:visited{color:#fff;}.header-top-bar .header-top-bar-area.area-left span.top-bar-text{color:#999;}.header-top-bar .header-top-bar-area.area-right span{color:#FFFFFF;}.header-top-bar .header-top-bar-area.area-right i.fa{color:#999;}.header-top-bar .header-top-bar-area.area-right .top-bar-social-icons i{color:#fff;}.header-top-bar .header-top-bar-area.area-right .top-bar-social-icons i:hover{color:#fff;}.header-top-bar .header-top-bar-area.area-right .top-bar-menu > li > a{color:#fff;}.header-top-bar .header-top-bar-area.area-right .top-bar-menu > li > a:hover{color:#fff!important;}.header-top-bar .header-top-bar-area.area-right .top-bar-menu > li > a:visited{color:#fff;}.header-top-bar .header-top-bar-area.area-right span.top-bar-text{color:#999;}.mesmerize-inner-page .navigation-bar.bordered{border-bottom-color:rgba(255, 255, 255, 0.5);border-bottom-width:1px;border-bottom-style:solid;}.mesmerize-inner-page .fixto-fixed .main_menu_col, .mesmerize-inner-page .fixto-fixed .main-menu{justify-content:flex-end!important;}.mesmerize-inner-page .navigation-bar.fixto-fixed{background-color:rgba(255, 255, 255, 1)!important;}.mesmerize-inner-page #main_menu > li > a{font-family:"Open Sans", Helvetica, Arial, sans-serif;font-weight:600;font-style:normal;font-size:14px;line-height:160%;letter-spacing:1px;text-transform:uppercase;}.mesmerize-front-page .fixto-fixed .main_menu_col, .mesmerize-front-page .fixto-fixed .main-menu{justify-content:center!important;}.mesmerize-front-page .navigation-bar.fixto-fixed{background-color:rgba(255, 255, 255, 1)!important;}.mesmerize-front-page #main_menu > li > a{font-family:"Open Sans", Helvetica, Arial, sans-serif;font-weight:600;font-style:normal;font-size:14px;line-height:160%;letter-spacing:1px;text-transform:uppercase;}.mesmerize-front-page #main_menu > li li > a{font-family:"Open Sans", Helvetica, Arial, sans-serif;font-weight:600;font-style:normal;font-size:0.875rem;line-height:120%;letter-spacing:0px;text-transform:none;}.mesmerize-front-page .header-nav-area .social-icons a{color:#FFFFFF!important;}.mesmerize-front-page .fixto-fixed .header-nav-area .social-icons a{color:#000000!important;}.mesmerize-front-page  .nav-search.widget_search *{color:#FFFFFF;}.mesmerize-front-page  .nav-search.widget_search input{border-color:#FFFFFF;}.mesmerize-front-page  .nav-search.widget_search input::-webkit-input-placeholder{color:#FFFFFF;}.mesmerize-front-page  .nav-search.widget_search input:-ms-input-placeholder{color:#FFFFFF;}.mesmerize-front-page  .nav-search.widget_search input:-moz-placeholder{color:#FFFFFF;}.mesmerize-front-page .fixto-fixed  .nav-search.widget_search *{color:#000000;}.mesmerize-front-page .fixto-fixed  .nav-search.widget_search input{border-color:#000000;}.mesmerize-front-page .fixto-fixed  .nav-search.widget_search input::-webkit-input-placeholder{color:#000000;}.mesmerize-front-page .fixto-fixed  .nav-search.widget_search input:-ms-input-placeholder{color:#000000;}.mesmerize-front-page .fixto-fixed  .nav-search.widget_search input:-moz-placeholder{color:#000000;}.mesmerize-inner-page .inner_header-nav-area .social-icons a{color:#FFFFFF!important;}.mesmerize-inner-page .fixto-fixed .inner_header-nav-area .social-icons a{color:#000000!important;}.mesmerize-inner-page .nav-search.widget_search *{color:#FFFFFF;}.mesmerize-inner-page .nav-search.widget_search input{border-color:#FFFFFF;}.mesmerize-inner-page .nav-search.widget_search input::-webkit-input-placeholder{color:#FFFFFF;}.mesmerize-inner-page .nav-search.widget_search input:-ms-input-placeholder{color:#FFFFFF;}.mesmerize-inner-page .nav-search.widget_search input:-moz-placeholder{color:#FFFFFF;}.mesmerize-inner-page .fixto-fixed .nav-search.widget_search *{color:#000000;}.mesmerize-inner-page .fixto-fixed .nav-search.widget_search input{border-color:#000000;}.mesmerize-inner-page .fixto-fixed .nav-search.widget_search input::-webkit-input-placeholder{color:#000000;}.mesmerize-inner-page .fixto-fixed .nav-search.widget_search input:-ms-input-placeholder{color:#000000;}.mesmerize-inner-page .fixto-fixed .nav-search.widget_search input:-moz-placeholder{color:#000000;}[data-component="offcanvas"] i.fa{color:#000000!important;}[data-component="offcanvas"] .bubble{background-color:#000000!important;}.fixto-fixed [data-component="offcanvas"] i.fa{color:#000000!important;}.fixto-fixed [data-component="offcanvas"] .bubble{background-color:#000000!important;}#offcanvas-wrapper{background-color:#222B34!important;}html.has-offscreen body:after{background-color:rgba(34, 43, 52, 0.7)!important;}#offcanvas-wrapper *:not(.arrow){color:#ffffff!important;}#offcanvas_menu li.open, #offcanvas_menu li.current-menu-item, #offcanvas_menu li.current-menu-item > a, #offcanvas_menu li.current_page_item, #offcanvas_menu li.current_page_item > a{background-color:#FFFFFF;}#offcanvas_menu li.open > a, #offcanvas_menu li.open > a > i, #offcanvas_menu li.current-menu-item > a, #offcanvas_menu li.current_page_item > a{color:#2395F6!important;}#offcanvas_menu li.open > a, #offcanvas_menu li.current-menu-item > a, #offcanvas_menu li.current_page_item > a{border-left-color:#2395F6!important;}#offcanvas_menu li > ul{background-color:#686B77;}#offcanvas_menu li > a{font-family:"Open Sans", Helvetica, Arial, sans-serif;font-weight:400;font-style:normal;font-size:0.875rem;line-height:100%;letter-spacing:0px;text-transform:none;}.navigation-bar.homepage:not(.coloured-nav) a.text-logo,.navigation-bar.homepage:not(.coloured-nav) #main_menu li.logo > a.text-logo,.navigation-bar.homepage:not(.coloured-nav) #main_menu li.logo > a.text-logo:hover{color:#FFFFFF;font-family:inherit;font-weight:600;font-style:normal;font-size:2em;line-height:100%;letter-spacing:0px;text-transform:uppercase;}.navigation-bar.homepage.fixto-fixed a.text-logo,.navigation-bar.homepage.fixto-fixed .dark-logo a.text-logo{color:#000000!important;}.navigation-bar:not(.homepage) a.text-logo,.navigation-bar:not(.homepage) #main_menu li.logo > a.text-logo,.navigation-bar:not(.homepage) #main_menu li.logo > a.text-logo:hover,.navigation-bar:not(.homepage) a.text-logo,.navigation-bar:not(.homepage) #main_menu li.logo > a.text-logo,.navigation-bar:not(.homepage) #main_menu li.logo > a.text-logo:hover{color:#fff;font-family:inherit;font-weight:600;font-size:1.6rem;line-height:100%;letter-spacing:0px;text-transform:uppercase;}.navigation-bar.fixto-fixed:not(.homepage) a.text-logo,.navigation-bar.fixto-fixed:not(.homepage) .dark-logo a.text-logo, .navigation-bar.alternate:not(.homepage) a.text-logo, .navigation-bar.alternate:not(.homepage) .dark-logo a.text-logo{color:#4a4a4a!important;}.slide-progress{background:rgba(3, 169, 244, 0.5);height:5px;}.header-slider-navigation.separated .owl-nav .owl-next,.header-slider-navigation.separated .owl-nav .owl-prev{margin-left:40px;margin-right:40px;}.header-slider-navigation .owl-nav .owl-next,.header-slider-navigation .owl-nav .owl-prev{padding:0px;background:rgba(0, 0, 0, 0);}.header-slider-navigation .owl-nav .owl-next i,.header-slider-navigation .owl-nav .owl-prev i{font-size:50px;width:50px;height:50px;color:#ffffff;}.header-slider-navigation .owl-nav .owl-next:hover,.header-slider-navigation .owl-nav .owl-prev:hover{background:rgba(0, 0, 0, 0);}.header-slider-navigation .owl-dots{margin-bottom:0px;margin-top:0px;}.header-slider-navigation .owl-dots .owl-dot span{background:rgba(255,255,255,0.3);}.header-slider-navigation .owl-dots .owl-dot.active span,.header-slider-navigation .owl-dots .owl-dot:hover span{background:#ffffff;}.header-slider-navigation .owl-dots .owl-dot{margin:0px 7px;}@media (min-width: 767px){.footer .footer-content{padding-top:0px;padding-bottom:0px;}}@media (max-width: 1023px){body{font-size:calc( 16px * 0.875 );}}@media (min-width: 1024px){body{font-size:16px;}}@media only screen and (min-width: 768px){body h1{font-size:3rem;}body h2{font-size:2.5rem;}body h3{font-size:1.5rem;}body h4{font-size:1.1rem;}body h5{font-size:1rem;}body h6{font-size:0.875rem;}.header-homepage p.header-subtitle2{font-size:1.4em;}.header-homepage h1.hero-title{font-size:3.5rem;}.header-homepage p.header-subtitle{font-size:1.4em;}.header-content .align-holder{width:70%!important;}.inner-header-description{text-align:center!important;}.inner-header-description .header-subtitle{font-size:1.3em;}.inner-header-description h1.hero-title{font-size:2.0em;}}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:10%;padding-bottom:40%;}}
+</style>
+<link rel='stylesheet' id='mesmerize-fonts-css'   data-href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='../wp-content/plugins/tablepress/css/default.min51cb.css?ver=1.10' type='text/css' media='all' />
+<link rel='stylesheet' id='otw-pct-font-awesome-css'  href='../wp-content/plugins/otw-post-custom-templates-pro/css/font-awesome.minb3e8.css?ver=0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='otw_pct-css'  href='../wp-content/plugins/otw-post-custom-templates-pro/css/otw_pctpb3e8.css?ver=0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-style-bundle-css'  href='../wp-content/themes/mesmerize-pro/pro/assets/css/theme.bundle.min25c1.css?ver=1.6.106' type='text/css' media='all' />
+<link rel='stylesheet' id='otw_post_template_otw-shortcode-font-awesome-css'  href='../wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/font-awesome.min9dff.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='otw_post_template_otw-shortcode-css'  href='../wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/otw_shortcode9dff.css?ver=5.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp'></script>
+<script type='text/javascript'>
+    
+        (function () {
+            function setHeaderTopSpacing() {
+
+                setTimeout(function() {
+                  var headerTop = document.querySelector('.header-top');
+                  var headers = document.querySelectorAll('.header-wrapper .header,.header-wrapper .header-homepage');
+
+                  for (var i = 0; i < headers.length; i++) {
+                      var item = headers[i];
+                      item.style.paddingTop = headerTop.getBoundingClientRect().height + "px";
+                  }
+
+                    var languageSwitcher = document.querySelector('.mesmerize-language-switcher');
+
+                    if(languageSwitcher){
+                        languageSwitcher.style.top = "calc( " +  headerTop.getBoundingClientRect().height + "px + 1rem)" ;
+                    }
+                    
+                }, 100);
+
+             
+            }
+
+            window.addEventListener('resize', setHeaderTopSpacing);
+            window.mesmerizeSetHeaderTopSpacing = setHeaderTopSpacing
+            mesmerizeDomReady(setHeaderTopSpacing);
+        })();
+    
+    
+</script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_grid_manager/js/otw_post_template_grid_managerb3e8.js?ver=0.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/otw-post-custom-templates-pro/js/jquery.flexslider.minb3e8.js?ver=0.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/otw-post-custom-templates-pro/js/jquery.fancybox.minb3e8.js?ver=0.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/otw-post-custom-templates-pro/js/imagesloaded.pkgd.minb3e8.js?ver=0.1'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/ui/tabs.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var socialShareURL = "index.html\/\/sil-asia.org\/wp-admin\/admin-ajax.php?action=otw_pctp_social_share&nonce=331e106454";
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/otw-post-custom-templates-pro/js/otw_pctpb3e8.js?ver=0.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/js/otw_shortcode_core9dff.js?ver=5.3.2'></script>
+<script type='text/javascript' src='../wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/js/otw_shortcode9dff.js?ver=5.3.2'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel='shortlink' href='../index5bd0.html?p=2262' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embeded28.json?url=http%3A%2F%2Fsil-asia.org%2Fexploring-hl7-standards%2F" />
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.adb-logo,
+.aehin-logo {
+  width: 320px !important;
+  max-width: 100%;
+}
+
+.arrow-down-right {
+  transform: rotate(135deg);
+}
+
+.arrow-down {
+  transform: rotate(180deg);
+}
+
+.arrow-down-left {
+  transform: rotate(225deg);
+}
+
+@media only screen and (max-width: 500px) {
+  .arrow-down,
+  .arrow-down-left,
+  .arrow-down-right {
+    display: none;
+  }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="http://sil-asia.org"><link rel="https://theeventscalendar.com/" href="../wp-json/tribe/events/v1/index.html" /><link rel="apple-touch-icon" sizes="180x180" href="../wp-content/uploads/fbrfg/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../wp-content/uploads/fbrfg/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../wp-content/uploads/fbrfg/favicon-16x16.png">
+<link rel="manifest" href="../wp-content/uploads/fbrfg/manifest.json">
+<link rel="shortcut icon" href="../wp-content/uploads/fbrfg/favicon.ico">
+<meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">    <script type="text/javascript" data-name="async-styles">
+        (function () {
+            var links = document.querySelectorAll('link[data-href]');
+            for (var i = 0; i < links.length; i++) {
+                var item = links[i];
+                item.href = item.getAttribute('data-href')
+            }
+        })();
+    </script>
+    <link rel="pingback" href="../xmlrpc.php">
+    <style data-prefix="inner_header" data-name="menu-variant-style">/** cached menu style */.mesmerize-inner-page ul.dropdown-menu > li {  color: #fff; }  .mesmerize-inner-page .fixto-fixed ul.dropdown-menu > li {  color: #000; }   .mesmerize-inner-page ul.dropdown-menu.active-line-bottom > li > a, .mesmerize-inner-page ul.dropdown-menu.active-line-bottom > li > a, ul.dropdown-menu.default > li > a, .mesmerize-inner-page ul.dropdown-menu.default > li > a {   border-bottom: 3px solid transparent; }  .mesmerize-inner-page ul.dropdown-menu.active-line-bottom > .current_page_item > a, .mesmerize-inner-page ul.dropdown-menu.active-line-bottom > .current-menu-item > a, ul.dropdown-menu.default > .current_page_item > a, .mesmerize-inner-page ul.dropdown-menu.default > .current-menu-item > a {  border-bottom-color: #03a9f4; }  .mesmerize-inner-page ul.dropdown-menu.active-line-bottom > li:not(.current-menu-item):not(.current_page_item):hover > a, .mesmerize-inner-page ul.dropdown-menu.active-line-bottom > li:not(.current-menu-item):not(.current_page_item).hover > a, ul.dropdown-menu.default > li:not(.current-menu-item):not(.current_page_item):hover > a, .mesmerize-inner-page ul.dropdown-menu.default > li:not(.current-menu-item):not(.current_page_item).hover > a {  color: #03a9f4; }  .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom > .current_page_item > a, .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom > .current-menu-item > a, .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.default > .current_page_item > a, .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.default > .current-menu-item > a {  border-bottom-color: #03a9f4; }  .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom > li:not(.current-menu-item):not(.current_page_item):hover > a, .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom > li:not(.current-menu-item):not(.current_page_item).hover > a, .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.default > li:not(.current-menu-item):not(.current_page_item):hover > a, .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.default > li:not(.current-menu-item):not(.current_page_item).hover > a {  color: #03a9f4; }   .mesmerize-inner-page ul.dropdown-menu.active-line-bottom > .current_page_item > a, .mesmerize-inner-page ul.dropdown-menu.active-line-bottom > .current-menu-item > a {  color: #fff; }  .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom > .current_page_item > a, .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom > .current-menu-item > a {  color: #000; } .mesmerize-inner-page ul.dropdown-menu ul {  background-color: #FFFFFF; }   .mesmerize-inner-page ul.dropdown-menu ul li {  color: #6B7C93; }  .mesmerize-inner-page ul.dropdown-menu ul li.hover, .mesmerize-inner-page ul.dropdown-menu ul li:hover {  background-color: #F8F8F8;  color: #000000; }</style>
+    <style data-name="menu-align">.mesmerize-inner-page .main-menu, .mesmerize-inner-page .main_menu_col {justify-content:;}</style>
+    <link rel="icon" href="../wp-content/uploads/2018/04/rsz_1sil-asia-pin.png" sizes="32x32" />
+<link rel="icon" href="../wp-content/uploads/2018/04/rsz_1sil-asia-pin.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2018/04/rsz_1sil-asia-pin.png" />
+<meta name="msapplication-TileImage" content="http://sil-asia.org/wp-content/uploads/2018/04/rsz_1sil-asia-pin.png" />
+    <style id="page-content-custom-styles">
+            </style>
+            <style data-name="header-shapes">
+            .header.color-overlay:after {background:url(../wp-content/themes/mesmerize-pro/assets/images/header-shapes/circles.png) center center/ cover no-repeat}        </style>
+            <style data-name="background-content-colors">
+        .mesmerize-inner-page .page-content,
+        .mesmerize-inner-page .content,
+        .mesmerize-front-page.mesmerize-content-padding .page-content {
+            background-color: #F5FAFD;
+        }
+    </style>
+                <style data-name="site-colors">
+                /** cached colors style */
+                a, .comment-reply-link, a.read-more{ color:#24346f; } a:hover, .comment-reply-link:hover, .sidebar .widget > ul > li a:hover, a.read-more:hover{ color:#384883; } .contact-form-wrapper input[type=submit], .button, .nav-links .numbers-navigation span.current, .post-comments .navigation .numbers-navigation span.current, .nav-links .numbers-navigation a:hover, .post-comments .navigation .numbers-navigation a:hover{ background-color:#24346f; border-color:#24346f; } .contact-form-wrapper input[type=submit]:hover, .nav-links .prev-navigation a:hover, .post-comments .navigation .prev-navigation a:hover, .nav-links .next-navigation a:hover, .post-comments .navigation .next-navigation a:hover, .button:hover{ background-color:#384883; border-color:#384883; } .post-comments, .sidebar .widget, .post-list .post-list-item{ //border-bottom-color:#24346f; } .nav-links .prev-navigation a, .post-comments .navigation .prev-navigation a, .nav-links .next-navigation a, .post-comments .navigation .next-navigation a{ border-color:#24346f; color:#24346f; } .tags-list a:hover{ border-color:#24346f; background-color:#24346f; } svg.section-separator-top path.svg-white-bg, svg.section-separator-bottom path.svg-white-bg{ fill: #24346f; } p.color1{ color : #24346f; } span.color1{ color : #24346f; } h1.color1{ color : #24346f; } h2.color1{ color : #24346f; } h3.color1{ color : #24346f; } h4.color1{ color : #24346f; } h5.color1{ color : #24346f; } h6.color1{ color : #24346f; } .card.bg-color1, .bg-color1{ background-color:#24346f; } a.color1:not(.button){ color:#24346f; } a.color1:not(.button):hover{ color:#384883; } button.color1, .button.color1{ background-color:#24346f; border-color:#24346f; } button.color1:hover, .button.color1:hover{ background-color:#384883; border-color:#384883; } button.outline.color1, .button.outline.color1{ background:none; border-color:#24346f; color:#24346f; } button.outline.color1:hover, .button.outline.color1:hover{ background:none; border-color:rgba(36,52,111,0.7); color:rgba(36,52,111,0.9); } i.fa.color1{ color:#24346f; } i.fa.icon.bordered.color1{ border-color:#24346f; } i.fa.icon.reverse.color1{ background-color:#24346f; color: #ffffff; } i.fa.icon.reverse.color-white{ color: #d5d5d5; } i.fa.icon.bordered.color1{ border-color:#24346f; } i.fa.icon.reverse.bordered.color1{ background-color:#24346f; color: #ffffff; } .top-right-triangle.color1{ border-right-color:#24346f; } .checked.decoration-color1 li:before { color:#24346f; } .stared.decoration-color1 li:before { color:#24346f; } .card.card-color1{ background-color:#24346f; } .card.bottom-border-color1{ border-bottom-color: #24346f; } .grad-180-transparent-color1{  background-image: linear-gradient(180deg, rgba(36,52,111,0) 0%, rgba(36,52,111,0) 50%, rgba(36,52,111,0.6) 78%, rgba(36,52,111,0.9) 100%) !important; } .border-color1{ border-color: #24346f; } .circle-counter.color1 .circle-bar{ stroke: #24346f; } p.color2{ color : #f3702c; } span.color2{ color : #f3702c; } h1.color2{ color : #f3702c; } h2.color2{ color : #f3702c; } h3.color2{ color : #f3702c; } h4.color2{ color : #f3702c; } h5.color2{ color : #f3702c; } h6.color2{ color : #f3702c; } .card.bg-color2, .bg-color2{ background-color:#f3702c; } a.color2:not(.button){ color:#f3702c; } a.color2:not(.button):hover{ color:#FF8440; } button.color2, .button.color2{ background-color:#f3702c; border-color:#f3702c; } button.color2:hover, .button.color2:hover{ background-color:#FF8440; border-color:#FF8440; } button.outline.color2, .button.outline.color2{ background:none; border-color:#f3702c; color:#f3702c; } button.outline.color2:hover, .button.outline.color2:hover{ background:none; border-color:rgba(243,112,44,0.7); color:rgba(243,112,44,0.9); } i.fa.color2{ color:#f3702c; } i.fa.icon.bordered.color2{ border-color:#f3702c; } i.fa.icon.reverse.color2{ background-color:#f3702c; color: #ffffff; } i.fa.icon.reverse.color-white{ color: #d5d5d5; } i.fa.icon.bordered.color2{ border-color:#f3702c; } i.fa.icon.reverse.bordered.color2{ background-color:#f3702c; color: #ffffff; } .top-right-triangle.color2{ border-right-color:#f3702c; } .checked.decoration-color2 li:before { color:#f3702c; } .stared.decoration-color2 li:before { color:#f3702c; } .card.card-color2{ background-color:#f3702c; } .card.bottom-border-color2{ border-bottom-color: #f3702c; } .grad-180-transparent-color2{  background-image: linear-gradient(180deg, rgba(243,112,44,0) 0%, rgba(243,112,44,0) 50%, rgba(243,112,44,0.6) 78%, rgba(243,112,44,0.9) 100%) !important; } .border-color2{ border-color: #f3702c; } .circle-counter.color2 .circle-bar{ stroke: #f3702c; } p.color-white{ color : #ffffff; } span.color-white{ color : #ffffff; } h1.color-white{ color : #ffffff; } h2.color-white{ color : #ffffff; } h3.color-white{ color : #ffffff; } h4.color-white{ color : #ffffff; } h5.color-white{ color : #ffffff; } h6.color-white{ color : #ffffff; } .card.bg-color-white, .bg-color-white{ background-color:#ffffff; } a.color-white:not(.button){ color:#ffffff; } a.color-white:not(.button):hover{ color:#FFFFFF; } button.color-white, .button.color-white{ background-color:#ffffff; border-color:#ffffff; } button.color-white:hover, .button.color-white:hover{ background-color:#FFFFFF; border-color:#FFFFFF; } button.outline.color-white, .button.outline.color-white{ background:none; border-color:#ffffff; color:#ffffff; } button.outline.color-white:hover, .button.outline.color-white:hover{ background:none; border-color:rgba(255,255,255,0.7); color:rgba(255,255,255,0.9); } i.fa.color-white{ color:#ffffff; } i.fa.icon.bordered.color-white{ border-color:#ffffff; } i.fa.icon.reverse.color-white{ background-color:#ffffff; color: #ffffff; } i.fa.icon.reverse.color-white{ color: #d5d5d5; } i.fa.icon.bordered.color-white{ border-color:#ffffff; } i.fa.icon.reverse.bordered.color-white{ background-color:#ffffff; color: #ffffff; } .top-right-triangle.color-white{ border-right-color:#ffffff; } .checked.decoration-color-white li:before { color:#ffffff; } .stared.decoration-color-white li:before { color:#ffffff; } .card.card-color-white{ background-color:#ffffff; } .card.bottom-border-color-white{ border-bottom-color: #ffffff; } .grad-180-transparent-color-white{  background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.6) 78%, rgba(255,255,255,0.9) 100%) !important; } .border-color-white{ border-color: #ffffff; } .circle-counter.color-white .circle-bar{ stroke: #ffffff; } p.color-black{ color : #000000; } span.color-black{ color : #000000; } h1.color-black{ color : #000000; } h2.color-black{ color : #000000; } h3.color-black{ color : #000000; } h4.color-black{ color : #000000; } h5.color-black{ color : #000000; } h6.color-black{ color : #000000; } .card.bg-color-black, .bg-color-black{ background-color:#000000; } a.color-black:not(.button){ color:#000000; } a.color-black:not(.button):hover{ color:#141414; } button.color-black, .button.color-black{ background-color:#000000; border-color:#000000; } button.color-black:hover, .button.color-black:hover{ background-color:#141414; border-color:#141414; } button.outline.color-black, .button.outline.color-black{ background:none; border-color:#000000; color:#000000; } button.outline.color-black:hover, .button.outline.color-black:hover{ background:none; border-color:rgba(0,0,0,0.7); color:rgba(0,0,0,0.9); } i.fa.color-black{ color:#000000; } i.fa.icon.bordered.color-black{ border-color:#000000; } i.fa.icon.reverse.color-black{ background-color:#000000; color: #ffffff; } i.fa.icon.reverse.color-white{ color: #d5d5d5; } i.fa.icon.bordered.color-black{ border-color:#000000; } i.fa.icon.reverse.bordered.color-black{ background-color:#000000; color: #ffffff; } .top-right-triangle.color-black{ border-right-color:#000000; } .checked.decoration-color-black li:before { color:#000000; } .stared.decoration-color-black li:before { color:#000000; } .card.card-color-black{ background-color:#000000; } .card.bottom-border-color-black{ border-bottom-color: #000000; } .grad-180-transparent-color-black{  background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 78%, rgba(0,0,0,0.9) 100%) !important; } .border-color-black{ border-color: #000000; } .circle-counter.color-black .circle-bar{ stroke: #000000; }                 /** cached colors style */
+            </style>
+            </head>
+
+<body class="post-template-default single single-post postid-2262 single-format-standard wp-custom-logo tribe-no-js mesmerize-inner-page">
+
+<div  id="page-top" class="header-top">
+		<div class="navigation-bar logo-above-menu bordered"  data-sticky='0'  data-sticky-mobile='1'  data-sticky-to='top' >
+    <div class="navigation-wrapper white-logo fixed-dark-logo">
+        <div class="row basis-auto between-xs">
+	        <div class="logo_col col-xs col-sm-12 center-sm">
+	            <a href="../index.html" class="logo-link dark" rel="home" itemprop="url"><img width="428" height="120" src="../wp-content/uploads/2018/09/SIL-ASIA-TEXT.png" class="logo dark" alt="" itemprop="logo" /></a><a href="../index.html" class="custom-logo-link" rel="home"><img width="428" height="120" src="../wp-content/uploads/2018/09/SIL-ASIA-TEXT.png" class="custom-logo" alt="Standards and Interoperability Lab &#8211; Asia" /></a>	        </div>
+	        <div class="main_menu_col col-xs-fit col-sm">
+	            <div id="mainmenu_container" class="row"><ul id="main_menu" class="active-line-bottom main-menu dropdown-menu"><li id="menu-item-415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-415"><a href="../index.html">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../about/index.html">About Us</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="../lab-experts/index.html">Our Team</a></li>
+<li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-162"><a href="../services/index.html">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-722"><a href="../teaming/index.html">Teaming</a>
+	<ul class="sub-menu">
+		<li id="menu-item-923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923"><a href="../viet-nam/index.html">Viet Nam</a></li>
+		<li id="menu-item-922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-922"><a href="../philippines/index.html">Philippines</a></li>
+	</ul>
+</li>
+	<li id="menu-item-719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-719"><a href="../trainings/index.html">Training</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1008"><a href="../ihe/index.html">IHE</a></li>
+		<li id="menu-item-1009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1009"><a href="../fhir-2/index.html">FHIR</a></li>
+		<li id="menu-item-1007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1007"><a href="../healthcare-blockchain/index.html">Healthcare Blockchain</a></li>
+	</ul>
+</li>
+	<li id="menu-item-721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-721"><a href="../tooling/index.html">Tooling</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1024"><a href="../digital-health-terminology-guide/index.html">Digital Health Terminology Guide</a></li>
+		<li id="menu-item-1292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1292"><a href="../digital-health-investment-guidance/index.html">Digital Health Investment: Guidance for Investing in Digital Health</a></li>
+		<li id="menu-item-1023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1023"><a href="../digital-health-impact-framework-user-manual/index.html">Digital Health Investment: Digital Health Impact Framework User Manual</a></li>
+		<li id="menu-item-1334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1334"><a href="../costing-tool/index.html">Digital Health Investment: Costing Tool</a></li>
+		<li id="menu-item-1021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021"><a href="../health-information-governance-architecture-framework/index.html">Health Information Governance Architecture Framework</a></li>
+		<li id="menu-item-1022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1022"><a href="../health-enterprise-architecture-framework/index.html">Health Enterprise Architecture Framework</a></li>
+		<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="../lab-assets/index.html">Assets/Installations</a></li>
+		<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="../cloud-set-up/index.html">SIL-Asia Cloud Set-up</a></li>
+		<li id="menu-item-467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467"><a href="../fhir-server/index.html">SIL-Asia FHIR Server</a></li>
+		<li id="menu-item-2610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2610"><a href="../sil-asia-ontoserver/index.html">SIL-Asia Ontoserver</a></li>
+	</ul>
+</li>
+	<li id="menu-item-720" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="../testing/index.html">Testing</a></li>
+</ul>
+</li>
+<li id="menu-item-439" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-439"><a href="../events/index.html">Events</a></li>
+<li id="menu-item-1625" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1625"><a href="../category/news/index.html">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-2047" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2047"><a href="../category/2018/index.html">2018</a></li>
+	<li id="menu-item-2182" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2182"><a href="../category/2019/index.html">2019</a></li>
+	<li id="menu-item-2389" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2389"><a href="../category/2020/index.html">2020</a></li>
+	<li id="menu-item-2877" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2877"><a href="../category/2021/index.html">2021</a></li>
+</ul>
+</li>
+<li id="menu-item-1558" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1558"><a href="../category/blog/index.html">Blogs</a></li>
+<li id="menu-item-1364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a href="../knowledge-materials/index.html">Knowledge Materials</a></li>
+<li id="menu-item-2604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2604"><a href="../videos/index.html">Videos</a></li>
+</ul></div>    <a href="#" data-component="offcanvas" data-target="#offcanvas-wrapper" data-direction="right" data-width="300px" data-push="false">
+        <div class="bubble"></div>
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="offcanvas-wrapper" class="hide force-hide  offcanvas-right">
+        <div class="offcanvas-top">
+            <div class="logo-holder">
+                <a href="../index.html" class="logo-link dark" rel="home" itemprop="url"><img width="428" height="120" src="../wp-content/uploads/2018/09/SIL-ASIA-TEXT.png" class="logo dark" alt="" itemprop="logo" /></a><a href="../index.html" class="custom-logo-link" rel="home"><img width="428" height="120" src="../wp-content/uploads/2018/09/SIL-ASIA-TEXT.png" class="custom-logo" alt="Standards and Interoperability Lab &#8211; Asia" /></a>            </div>
+        </div>
+        <div id="offcanvas-menu" class="menu-top-menu-container"><ul id="offcanvas_menu" class="offcanvas_menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-415"><a href="../index.html">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../about/index.html">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60"><a href="../lab-experts/index.html">Our Team</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-162"><a href="../services/index.html">Services</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-722"><a href="../teaming/index.html">Teaming</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-923"><a href="../viet-nam/index.html">Viet Nam</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-922"><a href="../philippines/index.html">Philippines</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-719"><a href="../trainings/index.html">Training</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1008"><a href="../ihe/index.html">IHE</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1009"><a href="../fhir-2/index.html">FHIR</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1007"><a href="../healthcare-blockchain/index.html">Healthcare Blockchain</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-721"><a href="../tooling/index.html">Tooling</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1024"><a href="../digital-health-terminology-guide/index.html">Digital Health Terminology Guide</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1292"><a href="../digital-health-investment-guidance/index.html">Digital Health Investment: Guidance for Investing in Digital Health</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1023"><a href="../digital-health-impact-framework-user-manual/index.html">Digital Health Investment: Digital Health Impact Framework User Manual</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1334"><a href="../costing-tool/index.html">Digital Health Investment: Costing Tool</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1021"><a href="../health-information-governance-architecture-framework/index.html">Health Information Governance Architecture Framework</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1022"><a href="../health-enterprise-architecture-framework/index.html">Health Enterprise Architecture Framework</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140"><a href="../lab-assets/index.html">Assets/Installations</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="../cloud-set-up/index.html">SIL-Asia Cloud Set-up</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467"><a href="../fhir-server/index.html">SIL-Asia FHIR Server</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2610"><a href="../sil-asia-ontoserver/index.html">SIL-Asia Ontoserver</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-720"><a href="../testing/index.html">Testing</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-439"><a href="../events/index.html">Events</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1625"><a href="../category/news/index.html">News</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2047"><a href="../category/2018/index.html">2018</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2182"><a href="../category/2019/index.html">2019</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2389"><a href="../category/2020/index.html">2020</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2877"><a href="../category/2021/index.html">2021</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-1558"><a href="../category/blog/index.html">Blogs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a href="../knowledge-materials/index.html">Knowledge Materials</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2604"><a href="../videos/index.html">Videos</a></li>
+</ul></div>
+            <div data-type="group"  data-dynamic-mod="true" class="social-icons">
+        
+    </div>
+
+        </div>
+    	        </div>
+	    </div>
+    </div>
+</div>
+</div>
+
+<div id="page" class="site">
+    <div class="header-wrapper">
+        <div  class='header  raccoon_back' style=''>
+            								    <div class="inner-header-description gridContainer">
+        <div class="row header-description-row">
+    <div class="col-xs col-xs-12">
+        <h1 class="hero-title">
+            Exploring HL7 Standards        </h1>
+            </div>
+        </div>
+    </div>
+        <script>
+        window.mesmerizeSetHeaderTopSpacing();
+    </script>
+    <div class='split-header'></div>                    </div>
+    </div>
+<div class="otw-row"><div class="otw-twelve otw-columns otw-push-six">	<!-- Wrapper with sidebar -->
+	<div class="otw-row otw_pct_ct_3">
+		<section class="otw-twentyfour otw-columns">
+			 <div class="otw_gm_content" id="otwct_2262"><div id="otwct_2262_row_0" class="otw-row"><div class="otw-twentyfour otw-columns end"><div class="otw-sc-divider empty otw-text-left" style="margin-top: 30px; margin-bottom: 30px;"></div>							<figure class="otw_post_content-media otw_post_content-format-image">
+								<a href="../wp-content/uploads/2019/11/Untitled.png" class="otw_post_content-fancybox-img">
+								<img src="../wp-content/uploads/2019/11/Untitled.png" alt="" title="" />
+								</a>
+							</figure>
+		</div></div><div id="otwct_2262_row_1" class="otw-row"><div class="otw-sixteen otw-columns"><!-- Blog Title -->
+<div class="otw_post_content-blog-title-wrapper otw_post_content-format-image">
+	<h1 class="otw_post_content-blog-title">Exploring HL7 Standards</h1>
+</div>
+<!-- End Blog Title --><!-- Blog Info -->
+<div class="otw_post_content-blog-meta-wrapper otw-meta-sep" id="otwct_2262_1_0_1">
+  <!-- Post Author -->
+<div class="otw_post_content-blog-author">
+				<span class="head"><i class="fa fa-user"></i></span>
+			
+  <a href="../author/roseann/index.html" title="Posts by Rose Ann Zuniga" rel="author">
+    Rose Ann Zuniga  </a>
+</div>
+<!-- End Post Author --><!-- Post Categories -->
+<div class="otw_post_content-blog-category">
+				<span class="head"><i class="fa fa-folder-open-o"></i></span>
+					    <a href="../category/blog/index.html" rel="category" title="View all posts in Blogs">
+    Blogs  </a>
+    </div>
+<!-- END Post Categories -->
+<!-- Post Date -->
+<div class="otw_post_content-blog-date">
+				<span class="head"><i class="fa fa-calendar-check-o"></i></span>
+					  <a href="../2020/01/15/index.html" data-date="2020-01-15">
+    January 15, 2020  </a>
+</div>
+<!-- END Post Date --></div>
+<!-- End Blog Info --><div class="otw_post-post-content"><p><p>In 2030, a patient will enter a clinic to have his regular check-up. Upon entering the clinic, the receptionist nurse will bring out her phone and ask the patient for a copy of his ID for the ID number. The nurse will just scan the ID using an application she downloaded online for free. She will then put the patient&#8217;s ID number in a web portal to obtain vital health data. She will see that the patient is wearing Apple Watch, and she will request if she can transfer the heart beat data, and sleeping record from the watch to her application.</p>
+<p>The patient will wait at the Lobby until called. Once called, the Doctor, using her own mobile app, costing 2$ will receive the patient&#8217;s records from the receptionists. It now includes the Apple Watch data. She will also view the patient&#8217;s past medical history by querying it from an online record repository. This will also contain records from other facilities.</p>
+<p>After the check-up, the patient will be asked by the receptionist to log in to a payment app. Since the patient has his own health insurance, the patient will just share his ID to the payment app and it will automatically make a claim to the insurance provider.</p>
+<p>This is the future of digital health. There will be no enterprise Electronic Medical Records (EMRs) or a single monolithic Electronic Health Record (EHR) or Hospital Information System (HIS). Facilities will be using small apps made by startups for each of the workflows. There will be an admission app, a consultation app, and a monitoring app. Data from wearables such as Fitbit or Apple Watch will be available to health providers. Piece-wise health data will be collected and this cannot be done using existing standards such as HL7V2 or HL7 CDA. This requires the use of APIs and the sharing of data from a server. It is envisioned that these workflows would flourish with the adaption of HL7 FHIR.</p>
+<p>&nbsp;</p>
+<h1>Introduction to HL7 Standards</h1>
+<p>HL7 V2, V3, CDA, and FHIR are the health data exchange standards that were released by the Health Level 7 (HL7) International group.</p>
+<p>The Health Level 7 (HL7) International group released HL7 V2, V3, CDA, and FHIR health data exchange standards. As health data exchange standards, these are used widely by EHRs/EMRs around the world today. Each of the above-mentioned standards was developed using a different framework and mindset.</p>
+<p>&nbsp;</p>
+<h2>A. HL7 V2</h2>
+<p>Health Level Seven Version 2 (V2) is a purely messaging standard that allows the exchange of clinical data between systems. It is designed to support a central patient care system as well as a more distributed environment where data resides in departmental systems. <strong>(Source: <a href="http://www.hl7.org/implement/standards/product_brief.cfm?product_id=185" target="_blank" rel="noopener noreferrer">HL7 V2 Briefer</a>)</strong></p>
+<h3>Benefits:</h3>
+<p>As stated on the official website, the following are the benefits of using V3:</p>
+<ul>
+<li>Supports the majority of the common interfaces used in the healthcare industry globally</li>
+<li>Provides a framework for negotiations of what is not in the standard</li>
+<li>Reduces implementation costs</li>
+<li>Generally backward compatible</li>
+</ul>
+<h3>Message Structure:</h3>
+<p>An HL7 V2 message is composed of texts, pipes, and hats.</p>
+<ul>
+<li>Sample message</li>
+</ul>
+<pre>MSH|^~\&amp;|GHH LAB|ELAB-3|GHH OE|BLDG4|200202150930||ORU^R01|CNTRL-3456|P|2.4&lt;cr&gt;
+ PID|||555-44-4444||EVERYWOMAN^EVE^E^^^^L|JONES|19620320|F|||153 FERNWOOD DR.^
+ ^STATESVILLE^OH^35292||(206)3345232|(206)752-121||||AC555444444||67-A4335^OH^20030520&lt;cr&gt;
+ OBR|1|845439^GHH OE|1045813^GHH LAB|15545^GLUCOSE|||200202150730|||||||||
+ 555-55-5555^PRIMARY^PATRICIA P^^^^MD^^|||||||||F||||||444-44-4444^HIPPOCRATES^HOWARD H^^^^MD&lt;cr&gt;
+ OBX|1|SN|1554-5^GLUCOSE^POST 12H CFST:MCNC:PT:SER/PLAS:QN||^182|mg/dl|70_105|H|||F&lt;cr&gt;</pre>
+<h2></h2>
+<h2>B. HL7 V3</h2>
+<p>The Health Level Seven Version 3 (V3) provides a full set of messages, data types, and terminologies. The V3 specification is built around subject domains that provide storyboard descriptions, trigger events, interaction designs, domain object models derived from the Reference Information Model (RIM), hierarchical message descriptors (HMDs) and a prose description of each element. Implementation of these domains further depends upon a non-normative V3 Guide and normative specifications for data types; the XML technical specifications (ITS) or message wire format; message and control &#8220;wrappers&#8221;, and transport protocols. (<strong>Source: <a href="https://www.hl7.org/implement/standards/product_brief.cfm?product_id=186" target="_blank" rel="noopener noreferrer">HL7 V3 Briefer</a>)</strong></p>
+<h3>Benefits:</h3>
+<p>As stated on the official website, the following are the benefits of adapting V3:</p>
+<ul>
+<li>Focuses on semantic interoperability by specifying that information be presented in a complete clinical context that assures that the sending and receiving systems share the meaning (semantics) of the information being exchanged</li>
+<li>Designed for universal application so that the standards can have the broadest possible global impact and yet be adapted to meet local and regional requirements</li>
+<li>Provides a consistent representation of data laterally across the various HL7 domains of interest and longitudinally over time as new requirements arise and new fields of clinical endeavor are addressed</li>
+<li>Allows implementers to take advantage, at any point in time, of the latest and most effective implementation technologies available</li>
+<li>Assures consistent development and the ability to store and manipulate the specifications in robust data repositories rather than as word-processing documents</li>
+</ul>
+<h3>Message Structure:</h3>
+<p>Messages and electronic documents are expressed in XML documents, which is totally different from the v2. The object data are included as sub-data in the XML tags.</p>
+<ul>
+<li>Sample message</li>
+</ul>
+<pre>&lt;observationEvent&gt;
+   &lt;id root="2.16.840.1.113883.19.1122.4" extension="1045813"
+       assigningAuthorityName="GHH LAB Filler Orders"/&gt;
+   &lt;code code="1554-5" codeSystemName="LN"
+         codeSystem="2.16.840.1.113883.6.1"
+         displayName="GLUCOSE^POST 12H CFST:MCNC:PT:SER/PLAS:QN"/&gt;
+   &lt;statusCode code="completed"/&gt;
+   &lt;effectiveTime value="200202150730"/&gt;
+   &lt;priorityCode code="R"/&gt;
+   &lt;confidentialityCode code="N" 
+      codeSystem="2.16.840.1.113883.5.25"/&gt;
+   &lt;value xsi:type="PQ" value="182" unit="mg/dL"/&gt;
+   &lt;interpretationCode code="H"/&gt;
+   &lt;referenceRange&gt;
+      &lt;interpretationRange&gt;
+          &lt;value xsi:type="IVL_PQ"&gt;
+          &lt;low value="70" unit="mg/dL"/&gt;
+          &lt;high value="105" unit="mg/dL"/&gt;
+        &lt;/value&gt;
+        &lt;interpretationCode code="N"/&gt;
+      &lt;/interpretationRange&gt;
+   &lt;/referenceRange&gt;</pre>
+<h2></h2>
+<h2>C. CDA</h2>
+<p>The HL7 Version 3 Clinical Document Architecture (CDA) is part of the HL7 V3 with a focus on the actual clinical documents. CDA is a document markup standard that specifies the structure and semantics of &#8220;clinical documents&#8221; for the purpose of exchange between healthcare providers and patients. It defines a clinical document as having the following six characteristics: 1) Persistence, 2) Stewardship, 3) Potential for authentication, 4) Context, 5) Wholeness and 6) Human readability.</p>
+<p>A CDA can contain any type of clinical content but typically would contain Discharge Summary, Imaging Report, Admission &amp; Physical, Pathology Report and/or more. The most popular use is for inter-enterprise information exchange, e.g. US Health Information Exchange (HIE). (<strong>Source: <a href="https://www.hl7.org/implement/standards/product_brief.cfm?product_id=7" target="_blank" rel="noopener noreferrer">HL7 V3 CDA Briefer</a>)</strong></p>
+<h3>Benefits:</h3>
+<p>As stated on the official website, the following are the benefits of CDA:</p>
+<ul>
+<li>Supports the exchange of clinical documents between those involved in the care of a patient</li>
+<li>Supports the re-use of clinical data for public health reporting, quality monitoring, patient safety, and clinical trials</li>
+<li>Can be reused in multiple applications</li>
+</ul>
+<h3>Message Structure:</h3>
+<p>Since it is basically a V3, CDA is based on the XML.</p>
+<ul>
+<li>Document structure</li>
+</ul>
+<p><img class="aligncenter wp-image-2307" src="../wp-content/uploads/2019/11/cda-message-structure.png" alt="" width="872" height="584" /></p>
+<p>&nbsp;</p>
+<ul>
+<li>Sample message <a style="font-family: Muli, sans-serif; font-size: 1.5rem; font-weight: 600; background-color: transparent;" href="../wp-content/uploads/2019/11/ClinicalDocumentSample.pdf" target="_blank" rel="noopener noreferrer">(Link to download sample message)</a></li>
+</ul>
+<h2></h2>
+<h2>D. FHIR</h2>
+<p>HL7 Fast Healthcare Interoperability Resources (FHIR) standards use RESTful APIs as its data access model. FHIR combines the best features of HL7’s Version 2, Version 3 and CDA product lines while leveraging the latest web standards and applying a tight focus on implementation The building blocks of FHIR is a set of modular components called &#8220;Resources&#8221;. These resources, since modular, can be pick-and-match depending on one&#8217;s needs and be assembled into working systems that solve real-world clinical and administrative problems. FHIR is suitable for use in a wide variety of contexts – mobile phone apps, cloud communications, EHR-based data sharing, server communication in large institutional healthcare providers, and much more. <strong>(Source: <a href="https://www.hl7.org/implement/standards/product_brief.cfm?product_id=343" target="_blank" rel="noopener noreferrer">HL7 FHIR Briefer</a>, <a href="https://www.hl7.org/fhir/http.html" target="_blank" rel="noopener noreferrer">HL7 FHIR</a>)</strong></p>
+<h3>Benefits:</h3>
+<p>As stated on the official standard briefer, the following are the benefits of FHIR:</p>
+<ul>
+<li>A strong focus on implementation – fast and easy to implement (multiple developers have had simple interfaces working in a single day)</li>
+<li>Multiple implementation libraries, many examples available to kick-start development</li>
+<li>The specification is free for use with no restrictions</li>
+<li>Interoperability out-of-the-box– base resources can be used as-is, but can also be adapted for local requirements</li>
+<li>Evolutionary development path from HL7 Version 2 and CDA – standards can co-exist and leverage each other</li>
+<li>Strong foundation in Web standards– XML, JSON, HTTP, Atom, OAuth, etc.</li>
+<li>Support for RESTful architectures and also seamless exchange of information using messages or documents</li>
+<li>Concise and easily understood specifications</li>
+<li>A Human-readable wire format for ease of use by developers</li>
+<li>Solid ontology-based analysis with a rigorous formal mapping for correctness</li>
+</ul>
+<h3>Message Structure:</h3>
+<p>FHIR is described as a &#8216;RESTful&#8217; specification however, it relies on the standardization of resource structures and interfaces. This may be considered a violation of REST principles but is key to ensuring consistent interoperability across diverse systems.</p>
+<p>Each &#8220;resource type&#8221; has the same set of interactions defined that can be used to manage the resources in a highly granular fashion. Transactions are performed directly on the server resource using an HTTP request/response.</p>
+<p>An application programming interface (API) is a set of instructions written by a developer and is published publicly for the benefit of other developers. The goal of APIs is to give other developers a common, standard way of accessing data/writing software that communicates with one another.</p>
+<p>The API describes the FHIR resources as a set of operations/interactions on resources where individual resource instances are managed in collections by their type. Servers can choose which of these interactions are made available and which resource types they support. The API does not directly address authentication, authorization, and audit collection.</p>
+<ul>
+<li>RESTful API interaction&#8217;s basic form</li>
+</ul>
+<pre>VERB [base]/[type]/[id] {?_format=[mime-type]}</pre>
+<ul>
+<li>Sample FHIR API interaction</li>
+</ul>
+<pre>http://172.104.170.172:8080/sila-fhirserver/fhir/Condition?patient.identifier=4954</pre>
+<ul>
+<li>Sample message</li>
+</ul>
+<pre>{
+  "resourceType": "Patient",
+  "id": "example",
+  "text": {
+    "status": "generated",
+    "div": "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;\n\t\t\t&lt;table&gt;\n\t\t\t\t&lt;tbody&gt;\n\t\t\t\t\t&lt;tr&gt;\n\t\t\t\t\t\t&lt;td&gt;Name&lt;/td&gt;\n\t\t\t\t\t\t&lt;td&gt;Peter James \n              &lt;b&gt;Chalmers&lt;/b&gt; (&amp;quot;Jim&amp;quot;)\n            &lt;/td&gt;\n\t\t\t\t\t&lt;/tr&gt;\n\t\t\t\t\t&lt;tr&gt;\n\t\t\t\t\t\t&lt;td&gt;Address&lt;/td&gt;\n\t\t\t\t\t\t&lt;td&gt;534 Erewhon, Pleasantville, Vic, 3999&lt;/td&gt;\n\t\t\t\t\t&lt;/tr&gt;\n\t\t\t\t\t&lt;tr&gt;\n\t\t\t\t\t\t&lt;td&gt;Contacts&lt;/td&gt;\n\t\t\t\t\t\t&lt;td&gt;Home: unknown. Work: (03) 5555 6473&lt;/td&gt;\n\t\t\t\t\t&lt;/tr&gt;\n\t\t\t\t\t&lt;tr&gt;\n\t\t\t\t\t\t&lt;td&gt;Id&lt;/td&gt;\n\t\t\t\t\t\t&lt;td&gt;MRN: 12345 (Acme Healthcare)&lt;/td&gt;\n\t\t\t\t\t&lt;/tr&gt;\n\t\t\t\t&lt;/tbody&gt;\n\t\t\t&lt;/table&gt;\n\t\t&lt;/div&gt;"
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "urn:oid:1.2.36.146.595.217.0.1",
+      "value": "12345",
+      "period": {
+        "start": "2001-05-06"
+      },
+      "assigner": {
+        "display": "Acme Healthcare"
+      }
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "family": "Chalmers",
+      "given": [
+        "Peter",
+        "James"
+      ]
+    },
+    {
+      "use": "usual",
+      "given": [
+        "Jim"
+      ]
+    },
+    {
+      "use": "maiden",
+      "family": "Windsor",
+      "given": [
+        "Peter",
+        "James"
+      ],
+      "period": {
+        "end": "2002"
+      }
+    }
+  ],
+  "telecom": [
+    {
+      "use": "home"
+    },
+    {
+      "system": "phone",
+      "value": "(03) 5555 6473",
+      "use": "work",
+      "rank": 1
+    },
+    {
+      "system": "phone",
+      "value": "(03) 3410 5613",
+      "use": "mobile",
+      "rank": 2
+    },
+    {
+      "system": "phone",
+      "value": "(03) 5555 8834",
+      "use": "old",
+      "period": {
+        "end": "2014"
+      }
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1974-12-25",
+  "_birthDate": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+        "valueDateTime": "1974-12-25T14:35:45-05:00"
+      }
+    ]
+  },
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "type": "both",
+      "text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999",
+      "line": [
+        "534 Erewhon St"
+      ],
+      "city": "PleasantVille",
+      "district": "Rainbow",
+      "state": "Vic",
+      "postalCode": "3999",
+      "period": {
+        "start": "1974-12-25"
+      }
+    }
+  ],
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+              "code": "N"
+            }
+          ]
+        }
+      ],
+      "name": {
+        "family": "du Marché",
+        "_family": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix",
+              "valueString": "VV"
+            }
+          ]
+        },
+        "given": [
+          "Bénédicte"
+        ]
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+33 (237) 998327"
+        }
+      ],
+      "address": {
+        "use": "home",
+        "type": "both",
+        "line": [
+          "534 Erewhon St"
+        ],
+        "city": "PleasantVille",
+        "district": "Rainbow",
+        "state": "Vic",
+        "postalCode": "3999",
+        "period": {
+          "start": "1974-12-25"
+        }
+      },
+      "gender": "female",
+      "period": {
+        "start": "2012"
+      }
+    }
+  ],
+  "managingOrganization": {
+    "reference": "Organization/1"
+  }
+}</pre>
+<h1></h1>
+<h1>Relationship of HL7 Standards</h1>
+<p><img class="aligncenter size-full wp-image-2268" src="../wp-content/uploads/2019/11/Untitled-1.png" alt="" width="1319" height="568" /></p>
+<p>HL7 V2 was originally designed as a message format. It presents a way of how health data can be formatted. EMRs sharing health data just need to follow the format provided by V2 and implement a parser for HL7 V2 messages. HL7 V3 provided structure to HL7 V2 messages. Instead of having a stream of text messages, HL7 V3 messages were written using XML, and follows RIM objects. This eliminates the need to actually parse the data, but instead, a document object model can be adapted. HL7 CDA followed HL7 V3, but instead of being mere messages, it integrated several data objects to form documents. The motivation of HL7 CDA objects are clinical documents.</p>
+<p><img class="aligncenter size-full wp-image-2269" src="../wp-content/uploads/2019/11/Untitled-2.png" alt="" width="908" height="267" /></p>
+<p>HL7 FHIR encapsulated the data model of earlier HL7 versions and made use of APIs to allow developers to access the data they need. In HL7 FHIR there is no more need to parse the message or use a document object model. It leaves it to the implementer how it will structure health data (though it has specifications that can be followed) &#8211; but rather it only defines how data can be accessed, read or modified.</p>
+<p>&nbsp;</p>
+<h1>HL7 Standards Usage</h1>
+<p><img class="aligncenter size-full wp-image-2270" src="../wp-content/uploads/2019/11/Untitled-3.png" alt="" width="710" height="425" /></p>
+<p>In terms of usage, currently, HL7 CDA is still the leading data exchange standard in the world. It has already surpassed HL7 V2 during the early 2010&#8217;s. HL7 FHIR is the leading draft standard, and upon its adoption by countries and corporations, it is projected that FHIR will exceed CDA before 2020. This is accepted since HL7 FHIR has been very useful (most useful) for digital health implementers and developers, as they are the once who first accepted this technology.</p>
+<p>&nbsp;</p>
+<h1>Complexity Model</h1>
+<p><img class="aligncenter size-full wp-image-2272" src="../wp-content/uploads/2019/11/Untitled-5.png" alt="" width="914" height="529" /></p>
+<p>In terms of complexity of use, HL7 FHIR is pretty simple to use since one only needs to invoke (C)reate, (R)ead, (U)pdate and (D)elete to manipulate the FHIR database. No additional operations are needed and there is no need to parse any text (HL7v2) or XML file (CDA). In terms of semantic usage, FHIR provides a reach set of resources, each with its corresponding data files modeling the whole health &#8211; care processes. There are a total of 150 resources that models all aspect of health care &#8211; from actual patient data to financial-related objects. It is richer than HL7 V2 or HL7 CDA.</p>
+<p><img class="aligncenter size-full wp-image-2273" src="../wp-content/uploads/2019/11/Untitled-6.png" alt="" width="1026" height="381" /></p>
+<h2></h2>
+<h1>General Comparison</h1>
+
+<table id="tablepress-1" class="tablepress tablepress-id-1">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Criteria</th><th class="column-2">HL7 V2</th><th class="column-3">HL7 V3</th><th class="column-4">HL7 CDA</th><th class="column-5">HL7 FHIR</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">General Structure</td><td class="column-2">Message</td><td class="column-3">Structured Message</td><td class="column-4">Document</td><td class="column-5">Application Programming Interface (APIs)</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">Use - cases</td><td class="column-2">Purely medical record exchange</td><td class="column-3">Purely medical record exchange</td><td class="column-4">Purely clinical document exchange</td><td class="column-5">Health data exchange. Data from other sources (wearables, mobile apps, laboratory devices) can be shared. Clinical documents can be shared. Medical records can be shared. Individual patient data can be shared. Provider data can be shared, facility data can be shared</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">Platform</td><td class="column-2">EMR/EHR/HIS</td><td class="column-3">EMR/EHR/HIS</td><td class="column-4">EMR/EHR/HIS</td><td class="column-5">EMR/EHR/HIS/ Phone applications/wearables</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">Flexibility</td><td class="column-2">Flexible as it requires few fields</td><td class="column-3">Less flexible as it requires more fields</td><td class="column-4">Less flexible as it requires more fields</td><td class="column-5">Very flexible as very few fields are required</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">Extensibility</td><td class="column-2">Not extensible</td><td class="column-3">Not extensible</td><td class="column-4">Not extensible</td><td class="column-5">Extensions of resources is allowed</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-1 from cache -->
+<h3></h3>
+<p>&nbsp;</p>
+<h1>Technical Comparisons</h1>
+
+<table id="tablepress-2" class="tablepress tablepress-id-2">
+<thead>
+<tr class="row-1 odd">
+	<th class="column-1">Criteria</th><th class="column-2">HL7 V2</th><th class="column-3">HL7 V3</th><th class="column-4">HL7 CDA</th><th class="column-5">HL7 FHIR</th><th class="column-6">Comments</th>
+</tr>
+</thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+	<td class="column-1">Message Format</td><td class="column-2">Build with pipe and hat characters</td><td class="column-3">XML</td><td class="column-4">XML</td><td class="column-5">XML/JSON, API based access</td><td class="column-6">Since V2 is mostly a message format it only use standard text format for its messages.  V3 and CDA are more structured while for FHIR - functions are already available to handle the data and there is no need to manipulate the actual data</td>
+</tr>
+<tr class="row-3 odd">
+	<td class="column-1">Learning overhead</td><td class="column-2">order of weeks</td><td class="column-3">order of months</td><td class="column-4">order of months</td><td class="column-5">order of weeks</td><td class="column-6">It is easier to study HL7 FHIR since the implementation details are already encapsulated.</td>
+</tr>
+<tr class="row-4 even">
+	<td class="column-1">Interoperability Method</td><td class="column-2">Syntactic</td><td class="column-3">Syntactic and Semantic</td><td class="column-4">Syntactic and Semantic</td><td class="column-5">Syntactic and Semantic</td><td class="column-6">FHIR and HL7 V3 offers a reach platform since it enables object fields to be connected to a single term. This is not possible with V2 or V1 since they only define a way to write health messages.</td>
+</tr>
+<tr class="row-5 odd">
+	<td class="column-1">Security</td><td class="column-2">Security on the transmission layer</td><td class="column-3">Security on the transmission layer</td><td class="column-4">Security on the transmission layer</td><td class="column-5">Security can be built in the transmission layer and SSL can be used</td><td class="column-6">For HL7 V2/V3/CDA - security must be implemented separately since these are merely a messaging standard. FHIR can have its security in the transmission layer but it can also be embedded in the server itself.</td>
+</tr>
+<tr class="row-6 even">
+	<td class="column-1">Requires special tool</td><td class="column-2">Parser</td><td class="column-3">Model compiler</td><td class="column-4">Model compiler</td><td class="column-5">None (use only console + browser)</td><td class="column-6"></td>
+</tr>
+<tr class="row-7 odd">
+	<td class="column-1">Sample</td><td class="column-2">Available</td><td class="column-3">none</td><td class="column-4">none</td><td class="column-5">Many sample files on the FHIR reference site</td><td class="column-6"></td>
+</tr>
+<tr class="row-8 even">
+	<td class="column-1">Use of ICD</td><td class="column-2">Support to ICD is limited and static</td><td class="column-3">ICD can be embedded as an object</td><td class="column-4">ICD can be embedded as an object</td><td class="column-5">ICD can be embedded as an object </td><td class="column-6"></td>
+</tr>
+<tr class="row-9 odd">
+	<td class="column-1">Use of LOINC</td><td class="column-2">Support to LOINC is limited and static</td><td class="column-3">LOINC can be embedded in RIM object</td><td class="column-4">LOINC can be embedded in RIM object</td><td class="column-5">LOINC can be embedded in RIM object</td><td class="column-6"></td>
+</tr>
+<tr class="row-10 even">
+	<td class="column-1">Use of DICOM</td><td class="column-2">Support to DICOM is limited</td><td class="column-3">DICOM can be embedded in RIM object</td><td class="column-4">DICOM can be embedded in RIM object</td><td class="column-5">DICOM can be embedded in RIM object</td><td class="column-6"></td>
+</tr>
+<tr class="row-11 odd">
+	<td class="column-1">Compatibility</td><td class="column-2">All V2 features are compatible</td><td class="column-3">V3 not compatible to V2</td><td class="column-4">CDA not compatible to earlier version</td><td class="column-5">Back compatible with V3/CDA. Not compatible with V2</td><td class="column-6"></td>
+</tr>
+<tr class="row-12 even">
+	<td class="column-1">Flexibility</td><td class="column-2">Flexible since few details is mandatory</td><td class="column-3">Less flexible since there are more data required</td><td class="column-4">Less flexible since there are more data required</td><td class="column-5">Flexible since very few data is required</td><td class="column-6">Since only very few fields are required, FHIR can be used in a wide arrange of applications.</td>
+</tr>
+<tr class="row-13 odd">
+	<td class="column-1">Reliability</td><td class="column-2">Less reliable since there are many optional columns</td><td class="column-3">More reliable since there are many required data</td><td class="column-4">More reliable since there are many required data</td><td class="column-5">More reliable since there are specific resources that can handle particular data</td><td class="column-6"></td>
+</tr>
+<tr class="row-14 even">
+	<td class="column-1">Granularity</td><td class="column-2">Very restricted since there is a specific data format for each kind of segment</td><td class="column-3">Less restricted since it follows RIM</td><td class="column-4">Less restricted since it follows RIM</td><td class="column-5">Less restricted since resources can contain more fields (for more specific data) or less fields for less specific data. Resources can even be extended.</td><td class="column-6"></td>
+</tr>
+<tr class="row-15 odd">
+	<td class="column-1">Technology</td><td class="column-2">Adhoc - relies on message parsing</td><td class="column-3">Relies on RIM and XML - Document Object Model</td><td class="column-4">Relies on RIM and XML - Document Object Model</td><td class="column-5">Relies on RESTful APIs</td><td class="column-6"></td>
+</tr>
+<tr class="row-16 even">
+	<td class="column-1">Popularity</td><td class="column-2">Very popular</td><td class="column-3">Not as many users as V2</td><td class="column-4">Leading standard right now</td><td class="column-5">Not yet widely used as a national standard. Still an emerging standard</td><td class="column-6"></td>
+</tr>
+<tr class="row-17 odd">
+	<td class="column-1">Adoption Rate</td><td class="column-2">High adoptability (just requires parsing a text)</td><td class="column-3">Requires extensive re-coding</td><td class="column-4">Requires extensive re-coding</td><td class="column-5">Requires extensive re-coding and change in framework</td><td class="column-6"></td>
+</tr>
+<tr class="row-18 even">
+	<td class="column-1">Implementation Cost</td><td class="column-2">Cheap since message based</td><td class="column-3">More expensive and must be planned for long term</td><td class="column-4">More expensive and must be planned for long term</td><td class="column-5">Cheap if starting from scratch</td><td class="column-6">It is very to start an application from scratch when using FHIR.</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-2 from cache -->
+<p>&nbsp;</p>
+<h1>Sources</h1>
+<ul>
+<li><a href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2299e022-0e4d-4152-be16-578ede97ecca/comparison_of_standards.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT73L2G45DWRLHIA7%2F20191125%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20191125T083059Z&amp;X-Amz-Expires=86400&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEB4aCXVzLXdlc3QtMiJIMEYCIQDvJJqOiFzjjllqJcnaEH9T6hcH9QCjIUsUqryDnTqlnQIhAJRj1EnIhm3KVUM4nogSlziUkxshR55D3VbgPx8OsWZnKtECCFcQABoMMjc0NTY3MTQ5MzcwIgxZ23fyQXF3WvVuOWgqrgJEbiNcKhnV%2FogOtxigfAGEQJIOFclUigE7A43D5C9uvdw7ghzrcq%2F7KHQf2p0UXDP5fNLBWa6SSHgy0A0MWw8PRLK3c2sakfITZfZa%2BaVqUFDy4WpmucgTOXLK0%2Fm%2BgUY3aXxp%2B30ulWRsyb3ObQAnufUiV4X8U5Bu0Pzj%2BFoXF0XOJ55kTdlcM048jjiIXg12Ajk2F1Ux5v1aG02R6GneMMux5hj50%2F37%2F2CZz3yWFp4rohIWjrU8E8QEtmc1QEvytiTuWWOy6fZJ5nyMjhgY4nWAHuqfrRMSGiyUEpkyoAW%2BjKPFajaaygbYR78zZ1t4PpZhPjVlOiGAvjscvSws5TU9UWAXDzypcbm737OBlMKvV6%2F2qdsAbuKfhCodkNCDEksfV%2B%2FDcF0%2Fau1BHDDuzu3uBTrNAoE2piEqVTlSuUNw66m2xgFHf6CledMcZ1yOuOC4dreWYxDzOe7lkmWmQCaQfdosXUtQVOi80TAtrRBCsq9T2HxkMXd5bn8N1TXgSYpUoQcdHFKd7ZvDG0k%2BFNbxLjdrNGi4YRcsR%2F8b3Cy1QQHLNT%2FgIbQonBabdyMZu%2FBT8ssck%2F%2BnrTnopVqF3KfINzvKKYemvT90D7xsZy%2ByoseC7%2BmNfTuph9rUMGbpZrh9qUHoFvoYL%2F2WFRBfhB8VgVaFl%2FnchzfqiDObfgZLMViwGPe%2BHmH3R8XsMl3GhRC%2BUvMBD2HYWwkxVoEGYPzcssQkCDkjxf1sf%2BHBiiOJ3Nc3kqT6muh8Vig8uaI0QR8%2BbeCGo4R8DiZPk5NdfuAIpInZWDmvwqMXZOm%2Fh%2FuuLRFKRmzW2SJ2TY%2BwdO87aXSt2kRIH%2FfwkxejA%2FbP2JnMEg%3D%3D&amp;X-Amz-Signature=bdffe04cfa389f1be7f4e37b14001875f3f9bc931969bd5e9d3c2620b38cb57e&amp;X-Amz-SignedHeaders=host&amp;response-content-disposition=filename%20%3D%22comparison_of_standards.pdf%253FX-Amz-Algorithm%253DAWS4-HMAC-SHA256%2526X-Amz-Credential%253DASIAT73L2G45DGONKD7N%25252F20191014%25252Fus-west-2%25252Fs3%25252Faws4_request%2526X-Amz-Date%253D20191014T050927Z%2526X-Amz-Expires%253D86400%2526X-Amz-Security-Token%253DAgoJb3JpZ2luX2VjECoaCXVzLXdlc3QtMiJGMEQCIG4iCfMWz%25252Bq5oLbSb8vuWQ2AOwicwdRyWlRVq3Fef3%25252B7AiBeYG6I6hHzw2y0RNubmyUEOdFEIvs8eMcTOcd8lLmARSraAwgiEAAaDDI3NDU2NzE0OTM3MCIMe8N5zld7nEfgGaXNKrcDrABYkzMzqWyJnx7eUHwD2NFYQ5WL8S0%25252Fc12DG4geul%25252B6WS%25252FsS%25252B8UdDTzXOdsigA%25252FlI8xYaSTZ6MHWITcKmhRXr6xrHIwr31RU5wBA0VTyfCx1soQh73AxxAvzbIPY0Yei3dddGQGZi95zjOPD3wEI8zB3JNdZqMr2Jfm1%25252BK7cb%25252Fc3YN3GczNNsxxAKuP%25252BuavfW27TW6ssjHEROJkz5DnLo4HIPD%25252F8%25252FCFhRR0Rs6CvQCjp%25252F%25252BFVR2C1ikcVlDe85VVeVC8ObTvh%25252BK%25252FHo6YIzFI%25252F4UDLFdAIfECIzT%25252F9UfPXWhunL4urHIWljEroStlL1V6kbHpyRKNXxiqiBl5ergA7t7eX6ci4frUyXdfC7J6ieBdVDUEi1rIeBZ%25252FJXOLI05nJhcFx2lNkImP0%25252FX7EnmjibXfbIoM3Zra5FLPlCYPMjOrj04N%25252Bof37Kjyun6hl1%25252Bu%25252BkgtEFNh6vDjdM84zP4Tw%25252BmhJSYCWcu%25252B5claWXcqlinZT%25252FBO%25252BLk8qwJic3SKvWI%25252BQ4YQuwBx%25252FjU9uTdLkUSpiIErjAhfuA3Z8z17MRz6mNi4VwYvIcrLJcmLrO2Fi6665zIb%25252Fj4y5zD8mo%25252FtBTq1AdPlaArCGoHVP1EZOruvELmBfj%25252F8eB6GcGuii6cmxo%25252FYUj4BJa2Hi6UVfF1SWp4bYy0TmKzJ5r4UwIO%25252BsWuggJx2fci76Bcok3pZ7kmqYid5WGZ7mMKgwypk%25252BACV2Cz2VaVSNLIUBFlfkJ3nA2vU5Qx9kQKBtRoj7kUgjg%25252BYtGxXeZoGdyQZlRf%25252B1mX1oPCRb%25252BToFliOFjkbPLvXkEX3yLclp20zQ5o2xlXOeB2%25252B2dHiHLDSQHA%25253D%2526X-Amz-Signature%253D36682a4f6c4bf21070c564a22c0bb620c468b8677830f7a76f1a9b7f8bd7e6b6%2526X-Amz-SignedHeaders%253Dhost%2526response-content-disposition%253Dfilename%252520%25253D%252522comparison_of_standards.pdf%252522%22" target="_blank" rel="noopener noreferrer">Comparative Study of Healthcare Messaging Standards for Interoperability in eHealth systems</a></li>
+<li><a href="https://www.researchgate.net/publication/261351945_HL7_FHIR_An_agile_and_RESTful_approach_to_healthcare_information_exchange" target="_blank" rel="noopener noreferrer">HL7 FHIR: An agile and RESTful approach to healthcare information exchange</a></li>
+<li><a href="https://healthitanalytics.com/news/4-basics-to-know-about-the-role-of-fhir-in-interoperability" target="_blank" rel="noopener noreferrer">4 Basics to Know about the Role of FHIR in Interoperability</a></li>
+</ul>
+<p>&nbsp;</p>
+</p></div><div class="otw-sc-divider empty otw-text-left" style="margin-top: 30px; margin-bottom: 30px;"></div><!-- Social Share Buttons -->
+<div class="otw-social-items otw-left-alignment">
+	<h3 class="otw_post_content-mb25">
+					Share your thoughts!			</h3>
+<div 
+  class="otw_post_content-social-share-buttons-wrapper otw_post_content-social-wrapper  otw-social-left-alignment pm_clearfix" 
+  data-title="Exploring HL7 Standards"
+  data-description="In"
+  data-image="../wp-content/uploads/2019/11/Untitled.png"
+  data-url="index.html">
+
+			<a class="otw_post_content-social-item otw-facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://sil-asia.org/exploring-hl7-standards/"><i class="icon-facebook" href="#"></i></a>
+				<a class="otw_post_content-social-item otw-twitter" target="_blank" href="https://twitter.com/intent/tweet?source=tweetbutton&amp;text=Exploring%20HL7%20Standards&amp;url=http://sil-asia.org/exploring-hl7-standards/"><i class="icon-twitter" href="#"></i></a>
+				<a class="otw_post_content-social-item otw-google_plus" target="_blank" href="https://plus.google.com/share?url=http://sil-asia.org/exploring-hl7-standards/"><i class="icon-google-plus" href="#"></i></a>
+				<a class="otw_post_content-social-item otw-linkedin" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://sil-asia.org/exploring-hl7-standards/&amp;title=Exploring%20HL7%20Standards&amp;summary=In"><i class="icon-linkedin" href="#"></i></a>
+		</div>
+<!-- End Social Share Buttons  -->
+</div><div class="fb-comments" data-href="http://sil-asia.org/exploring-hl7-standards/" data-numposts="10" data-colorscheme="light" data-order-by="social"></div></div><div class="otw-eight otw-columns end"><div class="otw-widget-blogauthorinfo"><a class="image" href="javascript:;"><img src="../wp-content/uploads/2018/09/PHOTO-Rose-Ann-Zuniga.jpg" width="67" height="80" alt="Rose Ann Zuniga" class="avatar avatar-80 wp-user-avatar wp-user-avatar-80 alignnone photo" /><span class="shadow-overlay hide-for-small"></span></a><div class="author-contents" style="margin-left: 90px;"><h3 class="widget-title">Rose Ann Zuniga</h3><p></p></div></div><div class="otw_pct_clear otw_post_content-mb30"></div><div class="otw_post_content-nav-single otw_pct_clearfix"><a class="prev" href="../community-of-interoperability-labs-in-the-asia-pacific-region/index.html" rel="prev">&laquo; Growth of Interoperability Labs in the Asia Pacific Region</a><a class="next" href="../ten-countries-in-asia-join-the-regional-fhir-workshop/index.html" rel="next">Ten Countries in Asia join the Regional FHIR Workshop &raquo;</a></div>			<h3 class="otw_post_content_related_posts_header">
+					Related Posts				</h3>
+		<div class="otw_post_content-slider otw_post_content-carousel no-control-nav" data-animation="slide" data-item-per-page="" data-item-margin="20">
+		<ul class="slides">
+							
+												<li class="otw_post_content_related_posts_holder otw_rel_post_2941">
+					<div class="otw_post_content-hover-effect-4 otw_post_content_related_posts_hover">
+						<figure class="otw_post_content-media otw_post_content-format-image otw_post_content-related-posts">
+							
+																	<a href="../the-case-for-an-integrated-contact-tracing-ecosystem-in-the-philippines/index.html">
+																					<img src="../wp-content/uploads/2021/03/Screen-Shot-2021-03-27-at-10.18.53-PM.png" alt="" data-item="media" />
+																					</a>							
+						</figure>
+					</div>
+				</li>
+							
+												<li class="otw_post_content_related_posts_holder otw_rel_post_2667">
+					<div class="otw_post_content-hover-effect-4 otw_post_content_related_posts_hover">
+						<figure class="otw_post_content-media otw_post_content-format-image otw_post_content-related-posts">
+							
+																	<a href="../sil-asia-supports-the-philippine-covid-19-response/index.html">
+																					<img src="../wp-content/uploads/2020/09/FEATURE-1.png" alt="" data-item="media" />
+																					</a>							
+						</figure>
+					</div>
+				</li>
+							
+												<li class="otw_post_content_related_posts_holder otw_rel_post_2511">
+					<div class="otw_post_content-hover-effect-4 otw_post_content_related_posts_hover">
+						<figure class="otw_post_content-media otw_post_content-format-image otw_post_content-related-posts">
+							
+																	<a href="../standards-and-interoperability-in-the-time-of-covid-19/index.html">
+																					<img src="../wp-content/uploads/2020/05/Tools-COVID-19-3.png" alt="" data-item="media" />
+																					</a>							
+						</figure>
+					</div>
+				</li>
+							
+												<li class="otw_post_content_related_posts_holder otw_rel_post_2454">
+					<div class="otw_post_content-hover-effect-4 otw_post_content_related_posts_hover">
+						<figure class="otw_post_content-media otw_post_content-format-image otw_post_content-related-posts">
+							
+																	<a href="../asias-ict-tools-against-covid19/index.html">
+																					<img src="../wp-content/uploads/2020/04/Tools-COVID-19-1.png" alt="" data-item="media" />
+																					</a>							
+						</figure>
+					</div>
+				</li>
+							
+												<li class="otw_post_content_related_posts_holder otw_rel_post_2433">
+					<div class="otw_post_content-hover-effect-4 otw_post_content_related_posts_hover">
+						<figure class="otw_post_content-media otw_post_content-format-image otw_post_content-related-posts">
+							
+																	<a href="../what-is-an-interoperability-lab/index.html">
+																					<img src="../wp-content/uploads/2020/03/Interoperability-Lab-3.png" alt="" data-item="media" />
+																					</a>							
+						</figure>
+					</div>
+				</li>
+					</ul>
+	</div>
+</div></div></div>		</section>
+	</div>
+	<!-- End Wrapper with sidebar --></div><div class="otw-six otw-columns otw-pull-twelve otw-primary-sidebar"></div><div class="otw-six otw-columns otw-secondary-sidebar"></div></div>	<div  class='footer footer-contact-boxes'>
+    <div  class='footer-content' style=''>
+        <div class="gridContainer">
+            <div class="row text-center">
+                <div class="col-sm-3">
+                        <div data-type="group"  data-dynamic-mod="true">
+        <i class="big-icon fa fa-map-marker"></i>
+        <p>
+            Asian Development Bank Headquarters, 6 ADB Avenue, Ortigas Center, Mandaluyong City, Metro Manila, Philippines        </p>
+    </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div data-type="group"  data-dynamic-mod="true">
+        <i class="big-icon fa fa-envelope-o"></i>
+        <p>
+            kristin@sil-asia.org        </p>
+    </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div data-type="group"  data-dynamic-mod="true">
+        <i class="big-icon fa fa-phone"></i>
+        <p>
+            +63 905 5693293        </p>
+    </div>
+                    </div>
+                <div class="col-sm-3 footer-bg-accent">
+                    <div>
+                            <div data-type="group"  data-dynamic-mod="true" class="footer-social-icons">
+                      <a target="_blank"  class="social-icon" href="https://www.facebook.com/sil.asia.org/">
+                  <i class="fa fa-facebook-official"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="https://twitter.com/sil_asia_org">
+                  <i class="fa fa-twitter-square"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="https://www.linkedin.com/company/standards-and-interoperability-lab-asia/">
+                  <i class="fa fa-linkedin-square"></i>
+              </a>
+              
+    </div>
+
+                        </div>
+                    <p  class="copyright" data-type="group" >&copy; 2024 Standards and Interoperability Lab - Asia. Built using WordPress and <a href="#">Mesmerize Theme</a>.</p>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	</div>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><style type="text/css"></style><div id="fb-root"></div><script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><script type='text/javascript' src='../wp-content/plugins/tablepress/js/jquery.datatables.min51cb.js?ver=1.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"28bd35d3fe","is_admin":"","is_mobile":"","ajaxurl":"http:\/\/sil-asia.org\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw=="};
+var PT_CV_PAGINATION = {"links":{"page_1":"http:\/\/sil-asia.org\/exploring-hl7-standards\/","page_n":"http:\/\/sil-asia.org\/exploring-hl7-standards\/?_page=_CVNUMBER_"},"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cva1ec.js?ver=2.3.0'></script>
+<script type='text/javascript' src='../wp-includes/js/comment-reply.min9dff.js?ver=5.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var otw_counter = {"url":"http:\/\/sil-asia.org\/wp-admin\/admin-ajax.php","post_id":"2262"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/plugins/otw-post-custom-templates-pro/js/otw_pctp_counter9dff.js?ver=5.3.2'></script>
+<script type='text/javascript'  defer="defer" src='../wp-includes/js/imagesloaded.min55a0.js?ver=3.2.0'></script>
+<script type='text/javascript'  defer="defer" src='../wp-includes/js/masonry.mind617.js?ver=3.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mesmerize_theme_pro_settings = {"reveal-effect":{"enabled":false}};
+/* ]]> */
+</script>
+<script type='text/javascript'  defer="defer" src='../wp-content/themes/mesmerize-pro/pro/assets/js/theme.bundle.min25c1.js?ver=1.6.106'></script>
+<script type='text/javascript'  defer="defer" src='../wp-includes/js/wp-embed.min9dff.js?ver=5.3.2'></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+$('#tablepress-1').dataTable({"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"pagingType":"simple"});
+$('#tablepress-2').dataTable({"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"pagingType":"simple"});
+});
+</script></body>
+
+<!-- Mirrored from sil-asia.org/exploring-hl7-standards/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Dec 2024 00:22:43 GMT -->
+</html>

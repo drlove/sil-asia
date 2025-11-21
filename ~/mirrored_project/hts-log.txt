@@ -1,0 +1,417 @@
+HTTrack3.49-2 launched on Mon, 23 Dec 2024 08:09:38 at http://sil-asia.org
+(httrack http://sil-asia.org -O ~/mirrored_project )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:09:41	Warning: 	Note: due to sil-asia.org remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+08:16:34	Warning: 	Retry after error -2 (Receive Time Out) at link sil-asia.org/wp-includes/js/wp-custom-header.min.js?ver=5.3.2 (from sil-asia.org/)
+08:16:35	Warning: 	File not parsed, looks like binary: sil-asia.org/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.woff2
+08:16:36	Warning: 	Retry after error -2 (Receive Time Out) at link sil-asia.org/wp-content/plugins/content-views-query-and-display-post-page/public/assets/fonts/glyphicons-halflings-regular.svg (from sil-asia.org/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=2.3.0)
+08:16:37	Warning: 	Retry after error -2 (Receive Time Out) at link sil-asia.org/wp-content/plugins/tablepress/css/tablepress.eot (from sil-asia.org/wp-content/plugins/tablepress/css/default.min.css?ver=1.10)
+08:16:38	Warning: 	File not parsed, looks like binary: sil-asia.org/wp-content/themes/mesmerize-pro/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+08:16:39	Warning: 	File not parsed, looks like binary: sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/fonts/fontawesome-webfont.woff2?v=4.6.3
+08:16:41	Error: 	"Not Found" (404) at link sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/prev.png (from sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/otw_shortcode.css?ver=5.3.2)
+08:16:42	Error: 	"Not Found" (404) at link sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/next.png (from sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/otw_shortcode.css?ver=5.3.2)
+08:16:45	Error: 	"Not Found" (404) at link sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/play.png (from sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/otw_shortcode.css?ver=5.3.2)
+08:16:45	Error: 	"Not Found" (404) at link sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/pause.png (from sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/otw_shortcode.css?ver=5.3.2)
+08:16:46	Error: 	"Not Found" (404) at link sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/loading.gif (from sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/otw_shortcode.css?ver=5.3.2)
+08:16:47	Error: 	"Not Found" (404) at link sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/images/gray-background-trasnp.png (from sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/otw_shortcode.css?ver=5.3.2)
+08:16:48	Error: 	"Not Found" (404) at link sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/images/blue-background-trans.png (from sil-asia.org/wp-content/plugins/otw-post-custom-templates-pro/include/otw_components/otw_post_template_shortcode/css/otw_shortcode.css?ver=5.3.2)
+08:16:49	Warning: 	Moved Permanently for sil-asia.org/?p=17
+08:16:49	Warning: 	File has moved from sil-asia.org/?p=17 to http://sil-asia.org/about/
+08:16:50	Error: 	"Not Found" (404) at link sil-asia.org/about/%22http:/sil-asia.org/wp-content/uploads/2018/09/35921703_1632610313528672_6833623564453675008_o.jpg (from sil-asia.org/about/)
+08:16:50	Error: 	"Not Found" (404) at link sil-asia.org/about/%22http:/sil-asia.org/wp-content/uploads/2018/09/41474502_1756670137789355_7204157999466676224_o.jpg (from sil-asia.org/about/)
+08:16:52	Warning: 	Moved Permanently for sil-asia.org/?p=45
+08:16:52	Warning: 	File has moved from sil-asia.org/?p=45 to http://sil-asia.org/lab-experts/
+08:16:56	Warning: 	Retry after error -2 (Receive Time Out) at link sil-asia.org/susann-roth (from sil-asia.org/lab-experts/)
+08:17:23	Warning: 	Moved Permanently for sil-asia.org/?p=159
+08:17:23	Warning: 	File has moved from sil-asia.org/?p=159 to http://sil-asia.org/services/
+08:17:24	Warning: 	Moved Permanently for sil-asia.org/?p=710
+08:17:24	Warning: 	File has moved from sil-asia.org/?p=710 to http://sil-asia.org/teaming/
+08:17:30	Warning: 	Moved Permanently for sil-asia.org/?p=918
+08:17:30	Warning: 	File has moved from sil-asia.org/?p=918 to http://sil-asia.org/viet-nam/
+08:17:32	Warning: 	Moved Permanently for sil-asia.org/?p=920
+08:17:32	Warning: 	File has moved from sil-asia.org/?p=920 to http://sil-asia.org/philippines/
+08:17:46	Warning: 	Moved Permanently for sil-asia.org/?p=716
+08:17:46	Warning: 	File has moved from sil-asia.org/?p=716 to http://sil-asia.org/trainings/
+08:17:47	Warning: 	Moved Permanently for sil-asia.org/?p=990
+08:17:47	Warning: 	File has moved from sil-asia.org/?p=990 to http://sil-asia.org/ihe/
+08:17:48	Warning: 	Moved Permanently for sil-asia.org/?p=976
+08:17:48	Warning: 	File has moved from sil-asia.org/?p=976 to http://sil-asia.org/fhir-2/
+08:17:49	Warning: 	Moved Permanently for sil-asia.org/?p=998
+08:17:49	Warning: 	File has moved from sil-asia.org/?p=998 to http://sil-asia.org/healthcare-blockchain/
+08:17:49	Warning: 	Moved Permanently for sil-asia.org/?p=712
+08:17:49	Warning: 	File has moved from sil-asia.org/?p=712 to http://sil-asia.org/tooling/
+08:17:50	Warning: 	Moved Permanently for sil-asia.org/?page_id=2571&preview=true
+08:17:50	Warning: 	File has moved from sil-asia.org/?page_id=2571&preview=true to http://sil-asia.org/sil-asia-ontoserver/
+08:17:50	Warning: 	Moved Permanently for sil-asia.org/?p=1010
+08:17:50	Warning: 	File has moved from sil-asia.org/?p=1010 to http://sil-asia.org/digital-health-terminology-guide/
+08:17:51	Warning: 	Moved Permanently for sil-asia.org/?p=1277
+08:17:51	Warning: 	File has moved from sil-asia.org/?p=1277 to http://sil-asia.org/digital-health-investment-guidance/
+08:17:51	Warning: 	Moved Permanently for sil-asia.org/?p=1012
+08:17:51	Warning: 	File has moved from sil-asia.org/?p=1012 to http://sil-asia.org/digital-health-impact-framework-user-manual/
+08:17:52	Warning: 	Moved Permanently for sil-asia.org/?p=1327
+08:17:52	Warning: 	File has moved from sil-asia.org/?p=1327 to http://sil-asia.org/costing-tool/
+08:17:52	Warning: 	Moved Permanently for sil-asia.org/?p=1016
+08:17:52	Warning: 	File has moved from sil-asia.org/?p=1016 to http://sil-asia.org/health-information-governance-architecture-framework/
+08:17:53	Warning: 	Moved Permanently for sil-asia.org/?p=1014
+08:17:53	Warning: 	File has moved from sil-asia.org/?p=1014 to http://sil-asia.org/health-enterprise-architecture-framework/
+08:17:53	Warning: 	Moved Permanently for sil-asia.org/?p=132
+08:17:53	Warning: 	File has moved from sil-asia.org/?p=132 to http://sil-asia.org/lab-assets/
+08:17:54	Warning: 	Moved Permanently for sil-asia.org/?p=51
+08:17:54	Warning: 	File has moved from sil-asia.org/?p=51 to http://sil-asia.org/cloud-set-up/
+08:17:54	Warning: 	Moved Permanently for sil-asia.org/?p=459
+08:17:54	Warning: 	File has moved from sil-asia.org/?p=459 to http://sil-asia.org/fhir-server/
+08:17:55	Warning: 	Moved Permanently for sil-asia.org/?p=2571
+08:17:55	Warning: 	File has moved from sil-asia.org/?p=2571 to http://sil-asia.org/sil-asia-ontoserver/
+08:17:56	Warning: 	Moved Permanently for sil-asia.org/?p=714
+08:17:56	Warning: 	File has moved from sil-asia.org/?p=714 to http://sil-asia.org/testing/
+08:18:33	Warning: 	Moved Permanently for sil-asia.org/?p=1339
+08:18:33	Warning: 	File has moved from sil-asia.org/?p=1339 to http://sil-asia.org/knowledge-materials/
+08:18:35	Warning: 	Moved Permanently for sil-asia.org/?p=2589
+08:18:35	Warning: 	File has moved from sil-asia.org/?p=2589 to http://sil-asia.org/videos/
+08:18:36	Error: 	"Not Found" (404) at link sil-asia.org/videos/%22http:/sil-asia.org/wp-content/uploads/2018/09/35921703_1632610313528672_6833623564453675008_o.jpg (from sil-asia.org/videos/)
+08:18:43	Warning: 	Moved Permanently for sil-asia.org/?p=790
+08:18:43	Warning: 	File has moved from sil-asia.org/?p=790 to http://sil-asia.org/alvin-marcelo/
+08:18:44	Warning: 	Moved Permanently for sil-asia.org/?p=1211
+08:18:44	Warning: 	File has moved from sil-asia.org/?p=1211 to http://sil-asia.org/eduardo-banzon/
+08:18:45	Warning: 	Moved Permanently for sil-asia.org/susann-roth
+08:18:45	Warning: 	File has moved from sil-asia.org/susann-roth to http://sil-asia.org/susann-roth/
+08:18:45	Error: 	Unable to save file ~/mirrored_project/sil-asia.org/susann-roth: Is a directory
+08:18:47	Warning: 	Moved Permanently for sil-asia.org/?p=1608
+08:18:47	Warning: 	File has moved from sil-asia.org/?p=1608 to http://sil-asia.org/kirthi-ramesh/
+08:18:48	Warning: 	Moved Permanently for sil-asia.org/?p=1198
+08:18:48	Warning: 	File has moved from sil-asia.org/?p=1198 to http://sil-asia.org/boonchai-kijsanayotin/
+08:18:49	Warning: 	Moved Permanently for sil-asia.org/?p=841
+08:18:49	Warning: 	File has moved from sil-asia.org/?p=841 to http://sil-asia.org/donna-medeiros/
+08:18:49	Warning: 	Moved Permanently for sil-asia.org/?p=797
+08:18:49	Warning: 	File has moved from sil-asia.org/?p=797 to http://sil-asia.org/philip-christian-zuniga/
+08:18:50	Warning: 	Moved Permanently for sil-asia.org/?p=803
+08:18:50	Warning: 	File has moved from sil-asia.org/?p=803 to http://sil-asia.org/raymond-francis-sarmiento/
+08:18:51	Warning: 	Moved Permanently for sil-asia.org/?p=814
+08:18:51	Warning: 	File has moved from sil-asia.org/?p=814 to http://sil-asia.org/rose-ann-zuniga/
+08:18:51	Warning: 	Moved Permanently for sil-asia.org/?p=818
+08:18:51	Warning: 	File has moved from sil-asia.org/?p=818 to http://sil-asia.org/ada-angeli-cariaga/
+08:18:51	Warning: 	Moved Permanently for sil-asia.org/?p=823
+08:18:51	Warning: 	File has moved from sil-asia.org/?p=823 to http://sil-asia.org/marie-joanne-mendoza/
+08:18:52	Warning: 	Moved Permanently for sil-asia.org/?p=2548
+08:18:52	Warning: 	File has moved from sil-asia.org/?p=2548 to http://sil-asia.org/peter-lazo/
+08:18:53	Warning: 	Moved Permanently for sil-asia.org/?p=2557
+08:18:53	Warning: 	File has moved from sil-asia.org/?p=2557 to http://sil-asia.org/inna-calimbahin/
+08:18:53	Warning: 	Moved Permanently for sil-asia.org/?p=1410
+08:18:53	Warning: 	File has moved from sil-asia.org/?p=1410 to http://sil-asia.org/kristin-pascual/
+08:18:54	Warning: 	Moved Permanently for sil-asia.org/?p=850
+08:18:54	Warning: 	File has moved from sil-asia.org/?p=850 to http://sil-asia.org/grahame-grieve/
+08:19:00	Warning: 	Moved Permanently for sil-asia.org/?p=858
+08:19:00	Warning: 	File has moved from sil-asia.org/?p=858 to http://sil-asia.org/jurgen-brandstatter/
+08:19:02	Warning: 	Moved Permanently for sil-asia.org/?p=865
+08:19:02	Warning: 	File has moved from sil-asia.org/?p=865 to http://sil-asia.org/tom-jones/
+08:19:10	Warning: 	Moved Permanently for sil-asia.org/?p=871
+08:19:10	Warning: 	File has moved from sil-asia.org/?p=871 to http://sil-asia.org/peter-drury/
+08:19:22	Warning: 	Moved Permanently for sil-asia.org/?p=881
+08:19:22	Warning: 	File has moved from sil-asia.org/?p=881 to http://sil-asia.org/iryna-roy/
+08:19:27	Warning: 	Moved Permanently for sil-asia.org/?p=889
+08:19:27	Warning: 	File has moved from sil-asia.org/?p=889 to http://sil-asia.org/justin-fyfe/
+08:19:34	Warning: 	Moved Permanently for sil-asia.org/?p=2148
+08:19:34	Warning: 	File has moved from sil-asia.org/?p=2148 to http://sil-asia.org/chien-yeh-hsu/
+08:19:37	Warning: 	Moved Permanently for sil-asia.org/?p=2162
+08:19:37	Warning: 	File has moved from sil-asia.org/?p=2162 to http://sil-asia.org/hsiu-an-lee/
+08:20:49	Warning: 	Moved Permanently for sil-asia.org/?p=2821
+08:20:49	Warning: 	File has moved from sil-asia.org/?p=2821 to http://sil-asia.org/sil-asia-leads-an-interoperability-demo-at-the-gdhf-2020/
+08:20:56	Error: 	"Method Not Allowed" (405) at link sil-asia.org/xmlrpc.php (from sil-asia.org/sil-asia-leads-an-interoperability-demo-at-the-gdhf-2020/)
+08:21:04	Warning: 	Moved Permanently for sil-asia.org/?p=2840
+08:21:04	Warning: 	File has moved from sil-asia.org/?p=2840 to http://sil-asia.org/sil-asia-explains-the-fhir-starter-toolkit/
+08:21:05	Warning: 	Moved Permanently for sil-asia.org/?p=2835
+08:21:05	Warning: 	File has moved from sil-asia.org/?p=2835 to http://sil-asia.org/sil-asia-shares-the-role-of-standards-and-interoperability-in-the-philippine-covid-19-response/
+08:21:06	Warning: 	Moved Permanently for sil-asia.org/?p=2828
+08:21:06	Warning: 	File has moved from sil-asia.org/?p=2828 to http://sil-asia.org/sil-asia-co-presents-terminology-webinar-for-adb-project-officers/
+08:21:08	Warning: 	Moved Permanently for sil-asia.org/?p=2815
+08:21:08	Warning: 	File has moved from sil-asia.org/?p=2815 to http://sil-asia.org/sil-asia-shares-its-experiences-as-a-reference-interoperability-lab-at-the-gdhf-2020/
+08:21:24	Warning: 	Moved Permanently for sil-asia.org/?p=2130
+08:21:24	Warning: 	File has moved from sil-asia.org/?p=2130 to http://sil-asia.org/sil-asia-presents-its-co-creation-framework-for-interoperability-lab-set-up/
+08:21:54	Warning: 	Moved Permanently for sil-asia.org/?p=1775
+08:21:54	Warning: 	File has moved from sil-asia.org/?p=1775 to http://sil-asia.org/communityofinteroperablelabsinasia/
+08:21:59	Warning: 	Moved Permanently for sil-asia.org/?p=2115
+08:21:59	Warning: 	File has moved from sil-asia.org/?p=2115 to http://sil-asia.org/sil-asia-demonstrates-how-standards-can-enable-interoperable-health-information-systems/
+08:22:03	Warning: 	Moved Permanently for sil-asia.org/?p=2038
+08:22:03	Warning: 	File has moved from sil-asia.org/?p=2038 to http://sil-asia.org/countries-in-asia-learn-about-digital-health-innovations-at-the-6th-aehin-general-meeting/
+08:22:05	Warning: 	Moved Permanently for sil-asia.org/?p=2053
+08:22:05	Warning: 	File has moved from sil-asia.org/?p=2053 to http://sil-asia.org/sil-asia-and-dial-talk-about-principles-of-digital-development-and-community-of-interoperable-labs-at-the-6th-aehin-general-meeting/
+08:22:13	Warning: 	Moved Permanently for sil-asia.org/?p=2185
+08:22:13	Warning: 	File has moved from sil-asia.org/?p=2185 to http://sil-asia.org/sil-asia-trains-interns-from-ntunhs-on-setting-up-a-health-interoperability-lab/
+08:22:14	Warning: 	Moved Permanently for sil-asia.org/?p=2198
+08:22:14	Warning: 	File has moved from sil-asia.org/?p=2198 to http://sil-asia.org/sil-asia-participates-at-the-doh-kmits-10th-health-ict-update/
+08:22:16	Warning: 	Moved Permanently for sil-asia.org/?p=2179
+08:22:16	Warning: 	File has moved from sil-asia.org/?p=2179 to http://sil-asia.org/sil-asia-hosts-fhiring-up-digital-health/
+08:22:20	Warning: 	Moved Permanently for sil-asia.org/?p=3030
+08:22:20	Warning: 	File has moved from sil-asia.org/?p=3030 to http://sil-asia.org/sil-asia-supports-hl7-fhir-capacity-building-in-lao-pdr/
+08:22:22	Warning: 	Moved Permanently for sil-asia.org/?p=3018
+08:22:22	Warning: 	File has moved from sil-asia.org/?p=3018 to http://sil-asia.org/sil-asia-discusses-interoperability-of-health-facilities-in-the-philippines/
+08:22:28	Warning: 	Moved Permanently for sil-asia.org/?p=3005
+08:22:28	Warning: 	File has moved from sil-asia.org/?p=3005 to http://sil-asia.org/sil-asia-co-facilitates-the-standards-and-interoperability-strategy-session-at-the-lao-pdr-digital-health-convergence-workshop/
+08:22:34	Warning: 	Moved Permanently for sil-asia.org/?p=2968
+08:22:34	Warning: 	File has moved from sil-asia.org/?p=2968 to http://sil-asia.org/sil-asia-co-presents-ontoserver-training-series-at-the-aehin-hour/
+08:22:35	Warning: 	Moved Permanently for sil-asia.org/?p=2971
+08:22:35	Warning: 	File has moved from sil-asia.org/?p=2971 to http://sil-asia.org/sil-asia-presents-the-interoperability-lab-starter-toolkit-at-the-aehin-hour/
+08:23:15	Warning: 	Moved Permanently for sil-asia.org/?p=2941
+08:23:15	Warning: 	File has moved from sil-asia.org/?p=2941 to http://sil-asia.org/the-case-for-an-integrated-contact-tracing-ecosystem-in-the-philippines/
+08:23:18	Warning: 	Moved Permanently for sil-asia.org/?p=2667
+08:23:18	Warning: 	File has moved from sil-asia.org/?p=2667 to http://sil-asia.org/sil-asia-supports-the-philippine-covid-19-response/
+08:23:21	Warning: 	Moved Permanently for sil-asia.org/?p=2511
+08:23:21	Warning: 	File has moved from sil-asia.org/?p=2511 to http://sil-asia.org/standards-and-interoperability-in-the-time-of-covid-19/
+08:23:26	Warning: 	Moved Permanently for sil-asia.org/?p=2454
+08:23:26	Warning: 	File has moved from sil-asia.org/?p=2454 to http://sil-asia.org/asias-ict-tools-against-covid19/
+08:23:31	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/kor1/
+08:23:31	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/kor1/ (real one is sil-asia.org/wp-content/uploads/2020/04/kor1.png)
+08:23:31	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/kor2/
+08:23:31	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/kor2/ (real one is sil-asia.org/wp-content/uploads/2020/04/kor2.png)
+08:23:36	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/dashboard-sg/
+08:23:36	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/dashboard-sg/ (real one is sil-asia.org/wp-content/uploads/2020/04/dashboard-SG.png)
+08:23:36	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/funding_sg/
+08:23:36	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/funding_sg/ (real one is sil-asia.org/wp-content/uploads/2020/04/funding_SG.png)
+08:23:42	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/network2-sg/
+08:23:42	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/network2-sg/ (real one is sil-asia.org/wp-content/uploads/2020/04/network2-SG.png)
+08:23:42	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/network1-sg/
+08:23:42	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/network1-sg/ (real one is sil-asia.org/wp-content/uploads/2020/04/network1-SG.png)
+08:23:47	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/mas1/
+08:23:47	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/mas1/ (real one is sil-asia.org/wp-content/uploads/2020/04/mas1.png)
+08:23:50	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/mas2/
+08:23:50	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/mas2/ (real one is sil-asia.org/wp-content/uploads/2020/04/mas2.png)
+08:23:54	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/mas3/
+08:23:54	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/mas3/ (real one is sil-asia.org/wp-content/uploads/2020/04/mas3.png)
+08:23:55	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/mas4/
+08:23:55	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/mas4/ (real one is sil-asia.org/wp-content/uploads/2020/04/mas4.png)
+08:23:58	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/viet_dash/
+08:23:58	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/viet_dash/ (real one is sil-asia.org/wp-content/uploads/2020/04/viet_dash.png)
+08:24:06	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/viet_info/
+08:24:06	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/viet_info/ (real one is sil-asia.org/wp-content/uploads/2020/04/viet_info.png)
+08:24:10	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/support_viet/
+08:24:10	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/support_viet/ (real one is sil-asia.org/wp-content/uploads/2020/04/support_viet.png)
+08:24:18	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/ncovi_qr/
+08:24:18	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/ncovi_qr/ (real one is sil-asia.org/wp-content/uploads/2020/04/ncovi_QR.png)
+08:24:19	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/vietnam_ncovi/
+08:24:19	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/vietnam_ncovi/ (real one is sil-asia.org/wp-content/uploads/2020/04/vietnam_ncovi.png)
+08:24:20	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/dashboard_phi/
+08:24:20	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/dashboard_phi/ (real one is sil-asia.org/wp-content/uploads/2020/04/dashboard_phi.png)
+08:24:52	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/philippines_testing/
+08:24:52	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/philippines_testing/ (real one is sil-asia.org/wp-content/uploads/2020/04/philippines_testing.png)
+08:24:53	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/symptoms/
+08:24:53	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/symptoms/ (real one is sil-asia.org/wp-content/uploads/2020/04/symptoms.png)
+08:24:54	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/quickcount_phi/
+08:24:54	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/quickcount_phi/ (real one is sil-asia.org/wp-content/uploads/2020/04/quickcount_phi.png)
+08:24:55	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/case_distri/
+08:24:55	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/case_distri/ (real one is sil-asia.org/wp-content/uploads/2020/04/case_distri.png)
+08:24:56	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/doh_supplies/
+08:24:56	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/doh_supplies/ (real one is sil-asia.org/wp-content/uploads/2020/04/doh_supplies.png)
+08:24:56	Warning: 	Moved Permanently for sil-asia.org/asias-ict-tools-against-covid19/doh_tracker/
+08:24:56	Warning: 	Warning moved treated for sil-asia.org/asias-ict-tools-against-covid19/doh_tracker/ (real one is sil-asia.org/wp-content/uploads/2020/04/doh_tracker.png)
+08:24:58	Warning: 	Moved Permanently for sil-asia.org/?p=2433
+08:24:58	Warning: 	File has moved from sil-asia.org/?p=2433 to http://sil-asia.org/what-is-an-interoperability-lab/
+08:25:22	Warning: 	Moved Permanently for sil-asia.org/?p=2809
+08:25:22	Warning: 	File has moved from sil-asia.org/?p=2809 to http://sil-asia.org/sil-asia-facilitates-a-tutorial-at-the-fhir-devdays-2020/
+08:25:25	Warning: 	Moved Permanently for sil-asia.org/?p=2805
+08:25:25	Warning: 	File has moved from sil-asia.org/?p=2805 to http://sil-asia.org/sil-asia-co-presents-digital-health-webinar-with-adb-and-austrade/
+08:25:26	Warning: 	Moved Permanently for sil-asia.org/?p=2800
+08:25:26	Warning: 	File has moved from sil-asia.org/?p=2800 to http://sil-asia.org/sil-asia-talks-about-hl7-fhir-implementations-in-sea/
+08:25:28	Warning: 	Moved Permanently for sil-asia.org/?p=2791
+08:25:28	Warning: 	File has moved from sil-asia.org/?p=2791 to http://sil-asia.org/sil-asia-co-presents-terminology-webinar-at-the-aehin-hour/
+08:25:29	Warning: 	Moved Permanently for sil-asia.org/?p=2784
+08:25:29	Warning: 	File has moved from sil-asia.org/?p=2784 to http://sil-asia.org/sil-asia-promotes-digital-health-interoperability-at-the-6th-annual-asia-healthcare-week/
+08:25:34	Warning: 	Moved Permanently for sil-asia.org/?p=2279
+08:25:34	Warning: 	File has moved from sil-asia.org/?p=2279 to http://sil-asia.org/community-of-interoperability-labs-in-the-asia-pacific-region/
+08:25:37	Warning: 	Moved Permanently for sil-asia.org/?p=2966
+08:25:37	Warning: 	File has moved from sil-asia.org/?p=2966 to http://sil-asia.org/sil-asia-features-virtual-booth-at-the-7th-aehin-general-meeting-marketplace/
+08:25:37	Warning: 	Moved Permanently for sil-asia.org/?p=2775
+08:25:37	Warning: 	File has moved from sil-asia.org/?p=2775 to http://sil-asia.org/sil-asia-presents-hl7-fhir-webinars-with-philhealth/
+08:25:38	Warning: 	Moved Permanently for sil-asia.org/?p=2763
+08:25:38	Warning: 	File has moved from sil-asia.org/?p=2763 to http://sil-asia.org/sil-asia-participates-at-the-adb-digital-health-and-uhc-brownbag-session/
+08:25:39	Warning: 	Moved Permanently for sil-asia.org/?p=2757
+08:25:39	Warning: 	File has moved from sil-asia.org/?p=2757 to http://sil-asia.org/hl7-fhir-mapping-workshop-with-ehatid/
+08:25:41	Warning: 	Moved Permanently for sil-asia.org/?p=2387
+08:25:41	Warning: 	File has moved from sil-asia.org/?p=2387 to http://sil-asia.org/ph-national-fhir-workshop-highlights-interoperability-for-uhc/
+08:25:43	Warning: 	Moved Permanently for sil-asia.org/?p=2354
+08:25:43	Warning: 	File has moved from sil-asia.org/?p=2354 to http://sil-asia.org/ten-countries-in-asia-join-the-regional-fhir-workshop/
+08:25:47	Warning: 	Moved Permanently for sil-asia.org/?p=563
+08:25:47	Warning: 	File has moved from sil-asia.org/?p=563 to http://sil-asia.org/strengthening-artefacts-on-dhif/
+08:25:49	Warning: 	Moved Permanently for sil-asia.org/?p=2022
+08:25:49	Warning: 	File has moved from sil-asia.org/?p=2022 to http://sil-asia.org/countries-in-asia-learn-about-digital-health-investments-at-the-6th-aehin-general-meeting/
+08:25:50	Warning: 	Moved Permanently for sil-asia.org/?p=1677
+08:25:50	Warning: 	File has moved from sil-asia.org/?p=1677 to http://sil-asia.org/sil-asia-to-lead-the-launching-of-a-community-of-interoperable-labs-coil-at-the-6th-aehin-gm/
+08:25:52	Warning: 	Moved Permanently for sil-asia.org/?p=1816
+08:25:52	Warning: 	File has moved from sil-asia.org/?p=1816 to http://sil-asia.org/sil-asia-presents-its-research-poster-at-the-17th-national-health-research-forum-for-action/
+08:25:53	Warning: 	Moved Permanently for sil-asia.org/?p=537
+08:25:53	Warning: 	File has moved from sil-asia.org/?p=537 to http://sil-asia.org/sil-asia-dhis2-fhir-integration-meeting/
+08:25:55	Warning: 	Moved Permanently for sil-asia.org/?p=1681
+08:25:55	Warning: 	File has moved from sil-asia.org/?p=1681 to http://sil-asia.org/sil-asia-mentors-international-teams-at-the-adb-aim-hackathon-2018/
+08:26:17	Warning: 	Moved Permanently for sil-asia.org/?p=1930
+08:26:17	Warning: 	File has moved from sil-asia.org/?p=1930 to http://sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/
+08:26:19	Error: 	"Not Found" (404) at link sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/%22https:/www.adb.org/publications/investing-digital-health%22https:/www.adb.org/publications/investing-digital-health/a/span (from sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/)
+08:26:19	Warning: 	Moved Permanently for sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/"https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf">https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf</a></span>'
+08:26:19	Warning: 	File has moved from sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/"https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf">https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf</a></span>' to http://sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/%22https:/www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf%22https:/www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf/a/span
+08:26:19	Error: 	"Not Found" (404) at link sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/%22http:/romebusinessschool.it/en/digital-health-impact-framework/%22http:/romebusinessschool.it/en/digital-health-impact-framework/a/span (from sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/)
+08:26:22	Warning: 	Moved Permanently for sil-asia.org/?p=1541
+08:26:22	Warning: 	File has moved from sil-asia.org/?p=1541 to http://sil-asia.org/transforming-health-systems-through-good-digital-health-governance/
+08:26:26	Warning: 	Moved Permanently for sil-asia.org/?p=1845
+08:26:26	Warning: 	File has moved from sil-asia.org/?p=1845 to http://sil-asia.org/managing-the-digital-health-forest/
+08:26:28	Warning: 	Moved Permanently for sil-asia.org/?p=1663
+08:26:28	Warning: 	File has moved from sil-asia.org/?p=1663 to http://sil-asia.org/sil-asia-conducts-the-first-fast-healthcare-interoperability-resources-fhir-workshop-in-the-philippines/
+08:26:29	Warning: 	Moved Permanently for sil-asia.org/?p=1652
+08:26:29	Warning: 	File has moved from sil-asia.org/?p=1652 to http://sil-asia.org/sil-asia-trains-ehatid-lgu-for-fhir-compliance/
+08:26:30	Warning: 	Moved Permanently for sil-asia.org/?p=1668
+08:26:30	Warning: 	File has moved from sil-asia.org/?p=1668 to http://sil-asia.org/sil-asia-hosts-a-regional-heaf-workshop-to-enhance-interoperability-of-health-information-systems-in-asia/
+08:26:31	Warning: 	Moved Permanently for sil-asia.org/?p=1673
+08:26:31	Warning: 	File has moved from sil-asia.org/?p=1673 to http://sil-asia.org/sil-asia-participates-in-the-hl7-fhir-data-modeling-workshop-for-vietn-nam-eha/
+08:26:32	Warning: 	Moved Permanently for sil-asia.org/?p=1649
+08:26:32	Warning: 	File has moved from sil-asia.org/?p=1649 to http://sil-asia.org/sil-asia-co-sponsors-the-2nd-up-mit-critical-data-stanford-aehin-big-data-for-health-conference-and-workshops-2018/
+08:26:34	Warning: 	Moved Permanently for sil-asia.org/?p=552
+08:26:34	Warning: 	File has moved from sil-asia.org/?p=552 to http://sil-asia.org/sil-asia-teams-up-with-viet-nam-ministry-of-health/
+08:26:35	Warning: 	Moved Permanently for sil-asia.org/?p=546
+08:26:35	Warning: 	File has moved from sil-asia.org/?p=546 to http://sil-asia.org/philippines-thailand-and-nepal-learn-about-dhif/
+08:26:36	Warning: 	Moved Permanently for sil-asia.org/?p=2880
+08:26:36	Warning: 	File has moved from sil-asia.org/?p=2880 to http://sil-asia.org/sil-asia-supports-health-interoperability-lab-set-up-in-nepal/
+08:26:38	Warning: 	Moved Permanently for sil-asia.org/?p=2864
+08:26:38	Warning: 	File has moved from sil-asia.org/?p=2864 to http://sil-asia.org/sil-asia-supports-enterprise-architecture-and-fhir-capacity-building-in-uzbekistan/
+08:26:40	Warning: 	Moved Permanently for sil-asia.org/?p=2417
+08:26:40	Warning: 	File has moved from sil-asia.org/?p=2417 to http://sil-asia.org/interoperability-and-universal-health-care-in-the-philippines/
+08:26:44	Warning: 	Moved Permanently for sil-asia.org/?p=2262
+08:26:44	Warning: 	File has moved from sil-asia.org/?p=2262 to http://sil-asia.org/exploring-hl7-standards/
+08:26:50	Warning: 	Moved Permanently for sil-asia.org/?p=1908
+08:26:50	Warning: 	File has moved from sil-asia.org/?p=1908 to http://sil-asia.org/illustrative-models-for-the-digital-health-impact-framework-dhif/
+08:26:51	Error: 	"Not Found" (404) at link sil-asia.org/illustrative-models-for-the-digital-health-impact-framework-dhif/%22https:/www.adb.org/publications/investing-digital-health%22https:/www.adb.org/publications/investing-digital-health/a/span (from sil-asia.org/illustrative-models-for-the-digital-health-impact-framework-dhif/)
+08:26:52	Warning: 	Moved Permanently for sil-asia.org/illustrative-models-for-the-digital-health-impact-framework-dhif/"http://romebusinessschool.it/en/digital-health-impact-framework/">http://romebusinessschool.it/en/digital-health-impact-framework/</a></span><span
+08:26:52	Warning: 	File has moved from sil-asia.org/illustrative-models-for-the-digital-health-impact-framework-dhif/"http://romebusinessschool.it/en/digital-health-impact-framework/">http://romebusinessschool.it/en/digital-health-impact-framework/</a></span><span to http://sil-asia.org/illustrative-models-for-the-digital-health-impact-framework-dhif/%22http:/romebusinessschool.it/en/digital-health-impact-framework/%22http:/romebusinessschool.it/en/digital-health-impact-framework//a/spanspan
+08:27:00	Warning: 	Moved Permanently for sil-asia.org/?p=1893
+08:27:00	Warning: 	File has moved from sil-asia.org/?p=1893 to http://sil-asia.org/sharing-peer-learning-about-digital-health/
+08:27:01	Warning: 	Moved Permanently for sil-asia.org/?p=1876
+08:27:01	Warning: 	File has moved from sil-asia.org/?p=1876 to http://sil-asia.org/join-a-short-course-on-digital-health-impact-framework/
+08:27:02	Warning: 	Moved Permanently for sil-asia.org/?p=1567
+08:27:02	Warning: 	File has moved from sil-asia.org/?p=1567 to http://sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/
+08:27:03	Error: 	"Not Found" (404) at link sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/%22https:/www.adb.org/publications/investing-digital-health%22https:/www.adb.org/publications/investing-digital-health/a/span (from sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/)
+08:27:04	Error: 	"Not Found" (404) at link sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/%22http:/romebusinessschool.it/en/digital-health-impact-framework/%22http:/romebusinessschool.it/en/digital-health-impact-framework/a (from sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/)
+08:27:05	Warning: 	Moved Permanently for sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/"https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf">https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf</a></span>'
+08:27:05	Warning: 	File has moved from sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/"https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf">https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf</a></span>' to http://sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/%22https:/www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf%22https:/www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf/a/span
+08:27:05	Warning: 	Moved Permanently for sil-asia.org/?p=826
+08:27:05	Warning: 	File has moved from sil-asia.org/?p=826 to http://sil-asia.org/susann-roth/
+08:27:11	Warning: 	Moved Permanently for sil-asia.org/?p=2248
+08:27:11	Warning: 	File has moved from sil-asia.org/?p=2248 to http://sil-asia.org/event/regional-fhir-workshop-2020/
+08:27:16	Warning: 	Moved Permanently for sil-asia.org/?p=576
+08:27:16	Warning: 	File has moved from sil-asia.org/?p=576 to http://sil-asia.org/sil-asia-undergoes-fhir-training/
+08:27:18	Warning: 	Moved Permanently for sil-asia.org/?p=572
+08:27:18	Warning: 	File has moved from sil-asia.org/?p=572 to http://sil-asia.org/sil-asia-joins-blockchain-for-healthcare-workshop/
+08:27:19	Warning: 	Moved Permanently for sil-asia.org/?p=568
+08:27:19	Warning: 	File has moved from sil-asia.org/?p=568 to http://sil-asia.org/sil-asia-gears-up-to-be-a-center-of-excellence-in-ihe/
+08:27:21	Warning: 	Moved Permanently for sil-asia.org/?p=1657
+08:27:21	Warning: 	File has moved from sil-asia.org/?p=1657 to http://sil-asia.org/sil-asia-teams-up-with-philippine-primary-care-studies/
+08:27:22	Warning: 	Moved Permanently for sil-asia.org/?p=559
+08:27:22	Warning: 	File has moved from sil-asia.org/?p=559 to http://sil-asia.org/sil-asia-hosts-capacity-building-workshop-for-viet-nam-moh/
+08:27:30	Error: 	"Not Found" (404) at link sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/%22https:/www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf%22https:/www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf/a/span (from sil-asia.org/modelling-digital-health-impact-framework-dhif-for-digital-health-initiatives/"https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf">https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf</a></span>')
+08:27:31	Error: 	"Not Found" (404) at link sil-asia.org/illustrative-models-for-the-digital-health-impact-framework-dhif/%22http:/romebusinessschool.it/en/digital-health-impact-framework/%22http:/romebusinessschool.it/en/digital-health-impact-framework/a/spanspan (from sil-asia.org/illustrative-models-for-the-digital-health-impact-framework-dhif/"http://romebusinessschool.it/en/digital-health-impact-framework/">http://romebusinessschool.it/en/digital-health-impact-framework/</a></span><span)
+08:27:33	Error: 	"Not Found" (404) at link sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/%22https:/www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf%22https:/www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf/a/span (from sil-asia.org/how-can-a-developing-member-country-benefit-from-the-digital-health-impact-framework-dhif/"https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf">https://www.adb.org/sites/default/files/institutional-document/202016/better-performing-dmcs.pdf</a></span>')
+08:27:37	Warning: 	Moved Permanently for sil-asia.org/?p=2223
+08:27:37	Warning: 	File has moved from sil-asia.org/?p=2223 to http://sil-asia.org/event/doh-kmits-10th-health-ict-update/
+08:27:39	Warning: 	Moved Permanently for sil-asia.org/?p=2317
+08:27:39	Warning: 	File has moved from sil-asia.org/?p=2317 to http://sil-asia.org/event/national-fhir-workshop-in-the-philippines/
+08:27:59	Warning: 	Moved Permanently for sil-asia.org/?p=2221
+08:27:59	Warning: 	File has moved from sil-asia.org/?p=2221 to http://sil-asia.org/event/summer-internship-of-ntunhs-with-sil-asia/
+08:28:00	Warning: 	Moved Permanently for sil-asia.org/?p=2544
+08:28:00	Warning: 	File has moved from sil-asia.org/?p=2544 to http://sil-asia.org/event/6th-annual-asia-healthcare-week-by-informa-connect-singapore/
+08:28:08	Warning: 	Moved Permanently for sil-asia.org/?p=3047
+08:28:08	Warning: 	File has moved from sil-asia.org/?p=3047 to http://sil-asia.org/event/fhir-training-with-moh-lao-pdr-day-3/
+08:28:09	Warning: 	Moved Permanently for sil-asia.org/?p=3043
+08:28:09	Warning: 	File has moved from sil-asia.org/?p=3043 to http://sil-asia.org/event/fhir-training-with-moh-lao-pdr-day-2/
+08:28:11	Warning: 	Moved Permanently for sil-asia.org/?p=3041
+08:28:11	Warning: 	File has moved from sil-asia.org/?p=3041 to http://sil-asia.org/event/fhir-training-with-moh-lao-pdr-day-1/
+08:28:17	Warning: 	Moved Permanently for sil-asia.org/?p=2891
+08:28:17	Warning: 	File has moved from sil-asia.org/?p=2891 to http://sil-asia.org/event/fhir-training-with-moh-uzbekistan-3/
+08:29:33	Warning: 	Moved Permanently for sil-asia.org/?p=2211
+08:29:33	Warning: 	File has moved from sil-asia.org/?p=2211 to http://sil-asia.org/event/fhiring-up-digital-health/
+08:29:33	Warning: 	Moved Permanently for sil-asia.org/?p=2620
+08:29:33	Warning: 	File has moved from sil-asia.org/?p=2620 to http://sil-asia.org/event/fhir-devdays-2020-by-firely/
+08:29:43	Warning: 	Moved Permanently for sil-asia.org/?p=2887
+08:29:43	Warning: 	File has moved from sil-asia.org/?p=2887 to http://sil-asia.org/event/fhir-training-with-moh-uzbekistan-2/
+08:29:49	Warning: 	Moved Permanently for sil-asia.org/?p=2889
+08:29:49	Warning: 	File has moved from sil-asia.org/?p=2889 to http://sil-asia.org/event/fhir-training-with-moh-uzbekistan-1/
+08:29:55	Warning: 	Moved Permanently for sil-asia.org/?p=2934
+08:29:55	Warning: 	File has moved from sil-asia.org/?p=2934 to http://sil-asia.org/event/sil-asia-webinar-interoperability-of-health-facilities/
+08:30:25	Warning: 	Moved Permanently for sil-asia.org/?p=2750
+08:30:25	Warning: 	File has moved from sil-asia.org/?p=2750 to http://sil-asia.org/event/starting-with-hl7-fhir/
+08:30:26	Warning: 	Moved Permanently for sil-asia.org/?p=2740
+08:30:26	Warning: 	File has moved from sil-asia.org/?p=2740 to http://sil-asia.org/event/the-role-of-standards-and-interoperability-in-the-philippine-covid-19-response/
+08:30:28	Warning: 	Moved Permanently for sil-asia.org/?p=2719
+08:30:28	Warning: 	File has moved from sil-asia.org/?p=2719 to http://sil-asia.org/event/foundations-for-interoperable-digital-health-infrastructure/
+08:30:31	Warning: 	Moved Permanently for sil-asia.org/?p=2907
+08:30:31	Warning: 	File has moved from sil-asia.org/?p=2907 to http://sil-asia.org/event/ontoserver-training-series-day-1-via-aehin-hour/
+08:30:32	Warning: 	Moved Permanently for sil-asia.org/?p=2912
+08:30:32	Warning: 	File has moved from sil-asia.org/?p=2912 to http://sil-asia.org/event/ontoserver-training-series-day-2-via-aehin-hour/
+08:30:33	Warning: 	Moved Permanently for sil-asia.org/?p=2709
+08:30:33	Warning: 	File has moved from sil-asia.org/?p=2709 to http://sil-asia.org/event/fhir-devdays-2020-sil-asia-tutorial-building-hl7-fhir-capability-on-a-regional-level/
+08:30:38	Warning: 	Moved Permanently for sil-asia.org/?p=2922
+08:30:38	Warning: 	File has moved from sil-asia.org/?p=2922 to http://sil-asia.org/event/ontoserver-training-series-day-5-via-aehin-hour/
+08:30:40	Warning: 	Moved Permanently for sil-asia.org/?p=3014
+08:30:40	Warning: 	File has moved from sil-asia.org/?p=3014 to http://sil-asia.org/event/sil-asia-support-at-the-lao-pdr-digital-health-convergence-workshop/
+08:30:44	Warning: 	Moved Permanently for sil-asia.org/?p=2920
+08:30:44	Warning: 	File has moved from sil-asia.org/?p=2920 to http://sil-asia.org/event/ontoserver-training-series-day-4-via-aehin-hour/
+08:30:46	Warning: 	Moved Permanently for sil-asia.org/?p=2918
+08:30:46	Warning: 	File has moved from sil-asia.org/?p=2918 to http://sil-asia.org/event/ontoserver-training-series-day-3-via-aehin-hour/
+08:31:08	Warning: 	Moved Permanently for sil-asia.org/?p=2929
+08:31:08	Warning: 	File has moved from sil-asia.org/?p=2929 to http://sil-asia.org/event/webinar-interoperability-lab-starter-toolkit-via-aehin-hour/
+08:31:23	Warning: 	Moved Permanently for sil-asia.org/?p=2214
+08:31:23	Warning: 	File has moved from sil-asia.org/?p=2214 to http://sil-asia.org/event/aehin-taiwan-smart-care-and-health-it-collaboration-workshop/
+08:31:24	Warning: 	Moved Permanently for sil-asia.org/?p=2691
+08:31:24	Warning: 	File has moved from sil-asia.org/?p=2691 to http://sil-asia.org/event/driving-healthcare-innovation-digital-solutions-from-australias-industry-leaders/
+08:31:33	Warning: 	Moved Permanently for sil-asia.org/?p=2905
+08:31:33	Warning: 	File has moved from sil-asia.org/?p=2905 to http://sil-asia.org/event/workshop-establishing-a-laboratory-for-interoperability-of-electronic-health-information-systems-in-nepal-day-3/
+08:31:38	Warning: 	Moved Permanently for sil-asia.org/?p=2752
+08:31:38	Warning: 	File has moved from sil-asia.org/?p=2752 to http://sil-asia.org/event/sil-asia-at-the-7th-aehin-gm-marketplace/
+08:31:41	Warning: 	Moved Permanently for sil-asia.org/?p=2732
+08:31:41	Warning: 	File has moved from sil-asia.org/?p=2732 to http://sil-asia.org/event/establishment-of-a-reference-interoperability-lab-in-the-asia-pacific-region/
+08:31:57	Warning: 	Moved Permanently for sil-asia.org/?p=2903
+08:31:57	Warning: 	File has moved from sil-asia.org/?p=2903 to http://sil-asia.org/event/workshop-establishing-a-laboratory-for-interoperability-of-electronic-health-information-systems-in-nepal-day-2/
+08:31:58	Warning: 	Moved Permanently for sil-asia.org/?p=2901
+08:31:58	Warning: 	File has moved from sil-asia.org/?p=2901 to http://sil-asia.org/event/workshop-establishing-a-laboratory-for-interoperability-of-electronic-health-information-systems-in-nepal-1/
+08:32:07	Warning: 	Moved Permanently for sil-asia.org/?p=1135
+08:32:07	Warning: 	File has moved from sil-asia.org/?p=1135 to http://sil-asia.org/event/6th-aehin-general-meeting-and-conference-on-interoperability-for-universal-health-coverage/
+08:32:11	Warning: 	Moved Permanently for sil-asia.org/?p=2899
+08:32:11	Warning: 	File has moved from sil-asia.org/?p=2899 to http://sil-asia.org/event/enterprise-architecture-presentation-with-moh-uzbekistan/
+08:32:17	Warning: 	Moved Permanently for sil-asia.org/?p=1140
+08:32:17	Warning: 	File has moved from sil-asia.org/?p=1140 to http://sil-asia.org/event/dhis2-hl7-fhir-integration-meeting/
+08:32:31	Warning: 	Moved Permanently for sil-asia.org/?p=447
+08:32:31	Warning: 	File has moved from sil-asia.org/?p=447 to http://sil-asia.org/event/adb-hack-2018/
+08:32:37	Warning: 	Moved Permanently for sil-asia.org/?p=428
+08:32:37	Warning: 	File has moved from sil-asia.org/?p=428 to http://sil-asia.org/event/fhir-workshop-2018/
+08:32:41	Warning: 	Moved Permanently for sil-asia.org/?p=448
+08:32:41	Warning: 	File has moved from sil-asia.org/?p=448 to http://sil-asia.org/event/health-enterprise-architecture-workshop-2018/
+08:33:39	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-training-with-moh-lao-pdr-day-1/%22Read (from sil-asia.org/events/2021-07/)
+08:33:39	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-training-with-moh-lao-pdr-day-2/%22Read (from sil-asia.org/events/2021-07/)
+08:33:40	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-training-with-moh-lao-pdr-day-3/%22Read (from sil-asia.org/events/2021-07/)
+08:34:36	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/ontoserver-training-series-day-5-via-aehin-hour/%22Read (from sil-asia.org/events/2021-04/)
+08:34:36	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/sil-asia-webinar-interoperability-of-health-facilities/%22Read (from sil-asia.org/events/2021-04/)
+08:35:01	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-training-with-moh-uzbekistan-2/%22Read (from sil-asia.org/events/2021-03/)
+08:35:02	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/ontoserver-training-series-day-1-via-aehin-hour/%22Read (from sil-asia.org/events/2021-03/)
+08:35:02	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-training-with-moh-uzbekistan-3/%22Read (from sil-asia.org/events/2021-03/)
+08:35:03	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/ontoserver-training-series-day-2-via-aehin-hour/%22Read (from sil-asia.org/events/2021-03/)
+08:35:05	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/webinar-interoperability-lab-starter-toolkit-via-aehin-hour/%22Read (from sil-asia.org/events/2021-03/)
+08:35:05	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/ontoserver-training-series-day-3-via-aehin-hour/%22Read (from sil-asia.org/events/2021-03/)
+08:35:07	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/ontoserver-training-series-day-4-via-aehin-hour/%22Read (from sil-asia.org/events/2021-03/)
+08:35:15	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/enterprise-architecture-presentation-with-moh-uzbekistan/%22Read (from sil-asia.org/events/2021-02/)
+08:35:15	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/workshop-establishing-a-laboratory-for-interoperability-of-electronic-health-information-systems-in-nepal-1/%22Read (from sil-asia.org/events/2021-02/)
+08:35:17	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/workshop-establishing-a-laboratory-for-interoperability-of-electronic-health-information-systems-in-nepal-day-2/%22Read (from sil-asia.org/events/2021-02/)
+08:35:17	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/workshop-establishing-a-laboratory-for-interoperability-of-electronic-health-information-systems-in-nepal-day-3/%22Read (from sil-asia.org/events/2021-02/)
+08:35:18	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-training-with-moh-uzbekistan-1/%22Read (from sil-asia.org/events/2021-02/)
+08:36:23	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/establishment-of-a-reference-interoperability-lab-in-the-asia-pacific-region/%22Read (from sil-asia.org/events/2020-12/)
+08:36:24	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/foundations-for-interoperable-digital-health-infrastructure/%22Read (from sil-asia.org/events/2020-12/)
+08:36:37	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-devdays-2020-by-firely/%22Read (from sil-asia.org/events/2020-11/)
+08:36:37	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/driving-healthcare-innovation-digital-solutions-from-australias-industry-leaders/%22Read (from sil-asia.org/events/2020-11/)
+08:36:39	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-devdays-2020-sil-asia-tutorial-building-hl7-fhir-capability-on-a-regional-level/%22Read (from sil-asia.org/events/2020-11/)
+08:39:23	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/national-fhir-workshop-in-the-philippines/%22Read (from sil-asia.org/events/2020-01/)
+08:42:10	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhiring-up-digital-health/%22Read (from sil-asia.org/events/2019-05/)
+08:44:38	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/6th-aehin-general-meeting-and-conference-on-interoperability-for-universal-health-coverage/%22Read (from sil-asia.org/events/2018-10/)
+08:45:03	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/fhir-workshop-2018/%22Read (from sil-asia.org/events/2018-09/)
+08:45:07	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/adb-hack-2018/%22Read (from sil-asia.org/events/2018-09/)
+08:45:27	Error: 	"Not Found" (404) at link sil-asia.org/%22http:/sil-asia.org/event/health-enterprise-architecture-workshop-2018/%22Read (from sil-asia.org/events/2018-08/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 49 minutes 38 seconds : 3622 links scanned, 3395 files written (276344425 bytes overall), 3041 files updated [29481583 bytes received at 9899 bytes/sec], 114725850 bytes transferred using HTTP compression in 1707 files, ratio 20%
+(48 errors, 358 warnings, 0 messages)

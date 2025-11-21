@@ -1,0 +1,133 @@
+HTTrack3.49-2 launched on Mon, 23 Dec 2024 23:23:48 at www.sil-asia.org .
+(httrack www.sil-asia.org . -iC1 -iC2 -iC2 -iC2 -iC2 -iC2 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+23:24:39	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:39	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:39	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:39	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:39	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:39	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:40	Warning: 	Note: due to www.sil-asia.org remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+23:24:40	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:40	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:40	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:40	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:40	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:40	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:40	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:40	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:41	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:42	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:42	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:42	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:42	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:42	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:42	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:42	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:42	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:43	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:44	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:45	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:45	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:45	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:45	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:45	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:45	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:45	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:45	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:46	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:47	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:47	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:47	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:47	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:47	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:47	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:47	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:47	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:48	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:49	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:49	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:49	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:49	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:49	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:49	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:49	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:49	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:50	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:51	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:51	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:51	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:51	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:51	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:51	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:51	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:51	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Warning: 	Moved Permanently for www.sil-asia.org/
+23:24:52	Warning: 	Redirected link is identical because of 'URL Hack' option: www.sil-asia.org/ and sil-asia.org/
+23:24:52	Warning: 	File has moved from www.sil-asia.org/ to http://sil-asia.org/
+23:24:52	Warning: 	engine: warning: serialize error for ./ to /index.html.tmp: open error (directory exists, file does not exist): Read-only file system
+23:24:52	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ./robots.txt (from primary/primary)
+23:24:52	Warning: 	Retry after error -5 (Unable to get server's address: nodename nor servname provided, or not known) at link ./ (from primary/primary)
+23:24:52	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link ./ (from primary/primary)
+23:24:52	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link ./ (from primary/primary)
+23:24:52	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
